@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.section-port {
+  height: 150vh;
+  background-color: #08090a;
+}
+.section-port .port {
+  padding-top: 10px;
+}
+.section-port .port .title {
+  font-size: 50px;
+  color: #236a51;
+  text-align: center;
+  font-weight: 600;
+}
+.section-port .port .sub-title {
+  font-size: 30px;
+  color: #afb0be;
+  text-align: center;
+}
+
+.buttonCustom {
+  background-color: #236a51;
+  border-radius: 5px;
+}
+
+.buttonCustom:hover {
+  background-color: #163f31;
+}
+
+.buttonCustom2 {
+  background-color: #6a236a;
+  border-radius: 5px;
+}
+
+.buttonCustom2:hover {
+  background-color: #441644;
+}/*# sourceMappingURL=globals.css.map */

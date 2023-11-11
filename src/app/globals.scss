@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$blanco: #d9dbf1;
+$gris: #afb0be;
+$negro: #08090a;
+$awita: #236a51;
+$violet: #6a236a;
+
+.section-port {
+  height: 150vh;
+  background-color: $negro;
+
+  .port {
+    padding-top: 10px;
+    .title {
+      font-size: 50px;
+      color: $awita;
+      text-align: center;
+      font-weight: 600;
+    }
+    .sub-title{
+      font-size: 30px;
+      color: $gris;
+      text-align: center;
+    }
+  }
+
+}
+
+.buttonCustom{
+  background-color: $awita;
+  border-radius: 5px;
+}
+.buttonCustom:hover{
+  background-color: #163f31;
+}
+.buttonCustom2{
+  background-color: $violet;
+  border-radius: 5px;
+}
+.buttonCustom2:hover{
+  background-color: #441644;
+}
