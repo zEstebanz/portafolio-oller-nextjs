@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
 
       <body className={inter.className}>
         <Nav />
-        <section className='h-screen'>
+        <section>
           {children}
         </section>
       </body>

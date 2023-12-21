@@ -6,12 +6,24 @@ import Link from 'next/link';
 function Project() {
     const [titulo, setProductoTitulo] = useState('');
     const [imagen, setProductoImagen] = useState('');
+    const [descripcion, setProductoDescripcion] = useState('');
+    const [urlManual, setProductoUrlManual] = useState('');
+    const [urlDoc, setProductoUrlDoc] = useState('');
+    const [urlGit, setProductoUrlGit] = useState('');
+    const [urlHost, setProductoUrlHost] = useState('');
+
 
     useEffect(() => {
         // Acceder a la URL y otros parámetros de la página
         const queryParams = new URLSearchParams(window.location.search);
         const titulo = queryParams.get('title');
         const imagen = queryParams.get('imagen');
+        const descripcion = queryParams.get('descripcion');
+        const urlManual = queryParams.get('urlManual');
+        const urlDoc = queryParams.get('urlDoc');
+        const urlGit = queryParams.get('urlGit');
+        const urlHost = queryParams.get('urlHost');
+
 
         if (titulo) {
             setProductoTitulo(titulo);
@@ -19,12 +31,22 @@ function Project() {
         if (imagen) {
             setProductoImagen(imagen);
         }
+        if (descripcion) {
+            setProductoDescripcion(descripcion);
+        }
+        if (urlManual) {
+            setProductoUrlManual(urlManual);
+        }
+        if (urlDoc) {
+            setProductoUrlDoc(urlDoc);
+        }
+        if (urlGit) {
+            setProductoUrlGit(urlGit);
+        }
+        if (urlHost) {
+            setProductoUrlHost(urlHost);
+        }
     }, []);
-
-    // Ejemplo de herramientas utilizadas y descripción del proyecto
-    const herramientasUtilizadas = "React, Next.js, Tailwind CSS";
-    const descripcionProyecto =
-        "Este proyecto utiliza tecnologías como React, Next.js y Tailwind CSS para...";
 
     return (
         <section className='section-port'>
@@ -36,20 +58,38 @@ function Project() {
                     <img
                         src={imagen}
                         alt={titulo}
-                        width={800}
-                        height={500}
+                        className="block h-80 object-cover rounded-lg"
                         layout="responsive"
                     />
                 </div>
-
-                <p className="mb-4 text-center text-white">{descripcionProyecto}</p>
-
-                <p className="mb-4 text-center text-white">Herramientas utilizadas: {herramientasUtilizadas}</p>
+                <div className="mb-4 flex items-center justify-center p-8">
+                    {descripcion && (
+                        <p className="mb-4 text-center text-white">{descripcion}</p>
+                    )}
+                </div>
 
                 {/* Botones al centro */}
                 <div className="flex justify-center space-x-4">
-                    <Link href={'https://docs.google.com/document/d/1_Jb_JI4Jj-_6FTXbl5p5uq3rnNJLXApw7Fv-oP0p0Qc/edit?usp=sharing'} className="buttonCustom text-white px-4 py-2" target='_blank'>Manual de Usuario</Link>
-                    <Link href={'https://docs.google.com/document/d/1PMzYSpLcjtN7fy9kQ1bZwXiEuCQWZYszcN49b00NCMk/edit?usp=sharing'} className="buttonCustom2 bg-green-500 text-white px-4 py-2" target='_blank'>Documentación</Link>
+                    {urlManual && (
+                        <Link href={urlManual} className="buttonCustom text-white px-4 py-2" target='_blank'>
+                            Manual de Usuario
+                        </Link>
+                    )}
+                    {urlDoc && (
+                        <Link href={urlDoc} className="buttonCustom2 bg-green-500 text-white px-4 py-2" target='_blank'>
+                            Documentación
+                        </Link>
+                    )}
+                    {urlGit && (
+                        <Link href={urlGit} className="buttonCustom3 bg-green-500 text-white px-4 py-2" target='_blank'>
+                            Code
+                        </Link>
+                    )}
+                    {urlHost && (
+                        <Link href={urlHost} className="buttonCustom2 bg-green-500 text-white px-4 py-2" target='_blank'>
+                            Host
+                        </Link>
+                    )}
                 </div>
             </div>
         </section>

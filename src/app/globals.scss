@@ -7,20 +7,24 @@ $gris: #afb0be;
 $negro: #08090a;
 $awita: #236a51;
 $violet: #6a236a;
+$celeste: #5CC8FF;
+$verdeFluor: #04e824;
 
 .section-port {
-  height: 150vh;
+  height: auto;
   background-color: $negro;
 
   .port {
     padding-top: 10px;
+
     .title {
       font-size: 50px;
       color: $awita;
       text-align: center;
       font-weight: 600;
     }
-    .sub-title{
+
+    .sub-title {
       font-size: 30px;
       color: $gris;
       text-align: center;
@@ -29,17 +33,35 @@ $violet: #6a236a;
 
 }
 
-.buttonCustom{
+.boxCustom {
+  background-color: #163f3188;
+}
+
+.buttonCustom {
   background-color: $awita;
   border-radius: 5px;
 }
-.buttonCustom:hover{
+
+.buttonCustom:hover {
   background-color: #163f31;
 }
-.buttonCustom2{
+
+.buttonCustom2 {
   background-color: $violet;
   border-radius: 5px;
 }
-.buttonCustom2:hover{
+
+.buttonCustom2:hover {
   background-color: #441644;
+}
+
+.buttonCustom3 {
+  background-color: $blanco;
+  color: #08090a;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.buttonCustom3:hover {
+  background-color: #1a1d20;
 }
