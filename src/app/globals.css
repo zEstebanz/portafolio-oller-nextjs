@@ -2,19 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 .section-port {
-  height: auto;
   background-color: #08090a;
 }
-.section-port .port {
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.port {
   padding-top: 10px;
 }
-.section-port .port .title {
+.port .title {
   font-size: 50px;
   color: #236a51;
   text-align: center;
   font-weight: 600;
 }
-.section-port .port .sub-title {
+.port .sub-title {
   font-size: 30px;
   color: #afb0be;
   text-align: center;
@@ -51,4 +57,66 @@
 
 .buttonCustom3:hover {
   background-color: #1a1d20;
+}
+
+.boxCustom {
+  background-color: #163f31;
+}
+
+.bgFooter {
+  background-color: #222222;
+}
+
+.box .sidebar {
+  background-color: #5CC8FF;
+  position: relative;
+  width: 12em;
+  height: 60px;
+  top: 15%;
+}
+.box .animation {
+  position: relative;
+  height: 20px;
+  top: 20px;
+  bottom: 20px;
+  background: #fff;
+}
+.box .animation .sol {
+  background: yellow;
+  position: relative;
+  height: 10px;
+  width: 2em;
+  top: 5px;
+  bottom: 5px;
+  right: 5em;
+  left: 5em;
+  border-radius: 100%;
+}
+
+.imgMarkdown {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .imgMarkdown {
+    max-width: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  .imgMarkdown {
+    max-width: 60%;
+  }
+}
+@media (min-width: 1280px) {
+  .imgMarkdown {
+    max-width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  .imgMarkdown {
+    max-width: 80%;
+  }
 }/*# sourceMappingURL=globals.css.map */

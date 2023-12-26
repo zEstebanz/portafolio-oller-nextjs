@@ -11,27 +11,32 @@ $celeste: #5CC8FF;
 $verdeFluor: #04e824;
 
 .section-port {
-  height: auto;
   background-color: $negro;
+}
 
-  .port {
-    padding-top: 10px;
+.title {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 600;
+}
 
-    .title {
-      font-size: 50px;
-      color: $awita;
-      text-align: center;
-      font-weight: 600;
-    }
+.port {
+  padding-top: 10px;
 
-    .sub-title {
-      font-size: 30px;
-      color: $gris;
-      text-align: center;
-    }
+  .title {
+    font-size: 50px;
+    color: $awita;
+    text-align: center;
+    font-weight: 600;
   }
 
+  .sub-title {
+    font-size: 30px;
+    color: $gris;
+    text-align: center;
+  }
 }
+
 
 .boxCustom {
   background-color: #163f3188;
@@ -64,4 +69,70 @@ $verdeFluor: #04e824;
 
 .buttonCustom3:hover {
   background-color: #1a1d20;
+}
+
+.boxCustom {
+  background-color: #163f31;
+}
+
+.bgFooter {
+  background-color: #222222;
+}
+
+.box {
+
+  .sidebar {
+    background-color: #5CC8FF;
+    position: relative;
+    width: 12em;
+    height: 60px;
+    top: 15%;
+  }
+
+  .animation {
+    position: relative;
+    height: 20px;
+    top: 20px;
+    bottom: 20px;
+    background: #fff;
+
+    .sol {
+      background: yellow;
+      position: relative;
+      height: 10px;
+      width: 2em;
+      top: 5px;
+      bottom: 5px;
+      right: 5em;
+      left: 5em;
+      border-radius: 100%;
+    }
+  }
+
+}
+
+// En tu archivo SCSS
+
+.imgMarkdown {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) {
+    max-width: 80%;
+  }
+
+  @media (min-width: 1024px) {
+    max-width: 60%;
+  }
+
+  @media (min-width: 1280px) {
+    max-width: 90%;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 80%;
+  }
 }

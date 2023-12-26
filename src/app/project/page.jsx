@@ -49,8 +49,8 @@ function Project() {
     }, []);
 
     return (
-        <section className='section-port'>
-            <div className='port'>
+        <section className='section-port h-auto min-h-screen'>
+            <div className='port pb-8'>
                 <h1 className='title'>{titulo}</h1>
 
                 <div className="mb-4 flex items-center justify-center">
@@ -62,10 +62,14 @@ function Project() {
                         layout="responsive"
                     />
                 </div>
-                <div className="mb-4 flex items-center justify-center p-8">
-                    {descripcion && (
+                
+
+                <div className="flex items-center justify-center">
+                    <div className="max-w-5xl mx-auto">
+                       {descripcion && (
                         <p className="mb-4 text-center text-white">{descripcion}</p>
                     )}
+                    </div>
                 </div>
 
                 {/* Botones al centro */}

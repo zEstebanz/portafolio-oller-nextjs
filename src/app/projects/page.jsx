@@ -15,7 +15,7 @@ function Proyecto() {
         {
             title: 'MendoPleg',
             descripcion: 'Este proyecto fue creado para una industria muy importante de Mendoza dedicada a la metalúrgica. Esta página web muestra los servicios de la empresa, sus últimos trabajos y una sección de contacto para que el usuario pueda comunicarse con la empresa.<br>Las tecnologías implementadas que se utilizaron en este proyecto son: HTML, JavaScript, Bootstrap.',
-            imagen: 'https://lh3.googleusercontent.com/pw/ABLVV85uE_DoyVZt702N97tBAcZT28UkkB6ZCf7MJ09vbbcJYyl3G3qYSaWDGdJFrttL6_cAt2Gpf8p54QpQ20G0loQQideYqG9oG0G3hlIfL0p0BHzBOOPHKG8rcmHkY0zXdIUBKxag7-07YlnF_3nPgwBGE3SRvM3IYX4uukr0Cge0VYbp0fqfGz8jiLYQ9Wu1dinVwEeUwjPwj5A80pYWQCaoF9HMVGTwZX7xdq58IPiWSO31hcnFk5GEVFslrDoN6BSPig5ajyb3lNKKwRpaqxv9C_-RZ2py89es3NsLyedSj3vgpdfZ9PmGAWDtSmobQjK1w6JPI7TtCahXoeEtwUMrVi4fxw_RsEGwJh_JLtMJ5GTF4nKx6V0lf2AfLmmGt_S4Ui1q83UPErU_NksI_uwd1W7tqdX-nz0rJWjIcmUab2tUAKIMMDLdNGPOKi4eIu_RBoySgJP3hBuwTMi0nguUy4tRVTDbXZ_GNtmpvn_IUJwrrElGEW1y-DiyeuJpRY-uypjKLiRmYR7ac7Atkc9hD6YN5AxN-NsYKGP_FY1QTCXFyBx-utLxvabEHJknG7IaL1VTqaYmuOVFqFgN7LT1SmTvTKfaikkYfXVP9XRzjXzTT8_G9aduYjHISSuus7RKnxjtksDdvV8xBpK4z21hYaaJkSJ4A9g6qDRbI4v_h4t2Ii61WugNbMbDPkH9zacORldnFeeHd7qFhbmg83uVRYVZNilvDyC51lcXPOIAjApjtkzeT8RMbAnecV8i6yJ2Ym5Ai3xtiHZpTM0d47XByoaRB1vIoKYyR9etKkLg8AfphyAtYdZQw69GW5gwqffNpVs1LhUXZ6E96kG-0DepZX4q1vGTYo2MLyjw6NJ0UygnpiPSmKELqBgGlYHDkIjfdriUQV_YvaLOSEiKdRvRjVCXVASLjTpXD7g=w960-h600-s-no-gm?authuser=0',
+            imagen: '/public/img/mendopleg.png',
             urlHost: 'https://mendopleg.netlify.app/',
             urlGit:'',
             urlManual:'',
@@ -87,7 +87,7 @@ function Proyecto() {
     ];
 
     return (
-        <main className='section-port h-screen'>
+        <main className='section-port h-auto min-h-screen'>
             <div className='port'>
                 <h1 className="title text-white">Projects</h1>
                 <p className="sub-title">Mis proyectos mas importantes</p>
@@ -115,7 +115,6 @@ function Proyecto() {
                                     >
                                         Examinar
                                     </a>
-
                                 </div>
                             </div>
                         ))}

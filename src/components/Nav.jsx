@@ -1,8 +1,10 @@
+"use client"
 import Link from "next/link";
 import React from 'react';
-import { IoPersonOutline, IoHomeOutline, IoMailOutline, IoHammerOutline, IoLibraryOutline } from 'react-icons/io5';
+import { IoPersonOutline, IoHomeOutline, IoMailOutline, IoHammerOutline, IoLibraryOutline, IoArchiveOutline } from 'react-icons/io5';
 
 const Nav = () => {
+  
     const NavLink = ({ href, children }) => (
         <Link href={href} passHref>
             {React.cloneElement(children, {})}
@@ -30,7 +32,7 @@ const Nav = () => {
                 </div>
             </NavLink>
 
-            <NavLink href="/projects">
+            <NavLink href="/projects" className="backgroundBotonNav">
                 <div className="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white">
                     <IoHammerOutline size={24} />
                 </div>
@@ -39,6 +41,12 @@ const Nav = () => {
             <NavLink href="/articles">
                 <div className="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white">
                     <IoLibraryOutline size={24} />
+                </div>
+            </NavLink>
+
+            <NavLink href="/blog">
+                <div className="h-10 w-10 flex items-center justify-center rounded-lg cursor-pointer hover:text-gray-800 hover:bg-white">
+                    <IoArchiveOutline size={24} />
                 </div>
             </NavLink>
         </aside>
