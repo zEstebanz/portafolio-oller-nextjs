@@ -41,7 +41,6 @@ const PostPage = (props: any) => {
               strong: { component: 'strong', props: { className: 'text-white' } },
               th: { component: 'th', props: { className: 'text-white' } },
               img: { component: 'img', props: { className: 'imgMarkdown ' } },
-
             },
           }}>{post.content}</Markdown>
 

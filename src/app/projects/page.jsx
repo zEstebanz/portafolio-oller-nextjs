@@ -7,7 +7,7 @@ function Proyecto() {
         {
             title: 'Pixel Arcade',
             descripcion: 'Este proyecto utiliza tecnologías como React, Next.js y Tailwind CSS para... Herramientas utilizadas: React, Next.js, Tailwind CSS',
-            imagen: '',
+            imagen: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415740282_350776470913203_8597685514091592960_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=3635dc&_nc_ohc=R0PB1rcE9NMAX8MMprO&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfCuZ09K1bO_qGlPMwHrk4V7XQIsYCtZZ9VVuK9LU3T2TA&oe=659387DD',
             urlManual: 'https://docs.google.com/document/d/1_Jb_JI4Jj-_6FTXbl5p5uq3rnNJLXApw7Fv-oP0p0Qc/edit?usp=sharing',
             urlDoc: 'https://docs.google.com/document/d/1PMzYSpLcjtN7fy9kQ1bZwXiEuCQWZYszcN49b00NCMk/edit?usp=sharing',
             urlGit: 'https://github.com/zEstebanz/pixel-arcade-mongodb.git'
@@ -15,74 +15,74 @@ function Proyecto() {
         {
             title: 'MendoPleg',
             descripcion: 'Este proyecto fue creado para una industria muy importante de Mendoza dedicada a la metalúrgica. Esta página web muestra los servicios de la empresa, sus últimos trabajos y una sección de contacto para que el usuario pueda comunicarse con la empresa.<br>Las tecnologías implementadas que se utilizaron en este proyecto son: HTML, JavaScript, Bootstrap.',
-            imagen: '/public/img/mendopleg.png',
+            imagen: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415753801_350776354246548_8682910425208264965_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=R0jbU20hZUQAX8v_UIE&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfBG-C5h-wGkVFVkq3RIVvYM465ch7WaZhzTzGORGtHUBQ&oe=6594CDDC',
             urlHost: 'https://mendopleg.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
         {
             title: 'FoodGo',
             descripcion: 'Este proyecto utiliza tecnologías como React, Next.js y Tailwind CSS para... Herramientas utilizadas: React, Next.js, Tailwind CSS',
             imagen: 'https://i.ibb.co/YQNzZN4/foodgo.jpg',
             urlHost: 'https://optimistic-fermat-9e3b0b.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
         {
             title: 'Rick & Morty API',
-            imagen:'https://lh3.googleusercontent.com/pw/ABLVV84p9KDzs4LL7lwIbG2Vvjxirv6oR-6wZE0qg84DSmcyhic4D-IQjCpuRALGZDzqCDVARR4ITpA-mFzmDr8785nShYOiwbFVpYt5vyJB1f5WhZlfIuyi4wudIKEn_xe31g9q3an3gf4ZaZds0tKSbu-ZFzPoIXgK3iKu4lLeeqIbbyXZXeMrlgRwp3_ydYl-ODCIYaJ8tqtE-zA6VAQ3TUThx_F8hRkSKkczSFF2IwF5mYo9iYvz5NsNuLoUR4WF7gECn2km4AmmepDrWjjyvo3H3weUBXZCUhugFWOb7K-1pw1-xxkTjn-5UdTYEtXYv_RFbnBr0HPPdfDFxAblW5-FZm3Xpvdb89Y9J7qNBkSZfRvj_-79nScpIw4AzfAx1f-0-V5wwZsRMTdM0DYf69ip8WqgFaIE-Bcg2gshzMnz1ULK_HKUJw7J9eTlJDIiEesRqmpKZhVSHGsYzDpoqaNW7dcOL6yCqEhXYVDOigLQ9otReN0RaGGMVitRAIRb6MM3boenWsRuPy7kDI4g_xbDq8eWLK3hmVSHOmT37XfboyHNxfM1cIKUUjP3Glbguw4X40MVMZzjMY-SE7DTJHRz466AxKUn0qSV-RhN8SjzZKDp8VdfjreuHbLKAQ6rBvhte-WouqIvTyb5iCrUTkWWugvGHmNyLfR1k_6d9xKISzBkaMhidK-w5j7pn9M7C3lN2GOuj2xAcWlMNEZnERsqPE6xwFhQIX0JsA3oXobyX3MigRPm80OQEb1yEtRnCeYTsOK_9KJnjLj7je3G044MxSMMwSZYrIzBfZsWaJBeE4iCSfA0o_xq_XhcPfGpWeMGe0akQlZGzP-qXKg7F5sb18j9_edN3vfo8P2TWV4VGPXwqQNKyrOkckxvZucZYDQ6WYPC-RVAxeN6dGkCE3FLQrVUbC8kUlJmRkuM=w960-h600-s-no-gm?authuser=0',
-            descripcion:'',
+            imagen: 'https://scontent.fmdz5-1.fna.fbcdn.net/v/t39.30808-6/415742483_350776407579876_5097671586742975392_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=iiU8_K-PADEAX_SSYQn&_nc_ht=scontent.fmdz5-1.fna&oh=00_AfDjlMWbeApVfQp8xdF7QmKSHrNnpx8aolyWUczp94IUIg&oe=659386EA',
+            descripcion: '',
             urlHost: 'https://marvelous-lebkuchen-8fe5f7.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
         {
             title: 'Rutinas Gym',
-            imagen:'https://lh3.googleusercontent.com/pw/ABLVV85ttmrCjJxmrkETW8hUtWVxa4quTJVwMsMP64kew8JInKk7zpmRrniIu8xiT633qyrXjCC2DAY7FDXDygaqlfmmtdnv9PzJytCGlSEhG4UYyq6DGLx1PiUVhri9Dwy02lqD8FYX6xOG3SLlU6UQpSzYVoD_kytxdkweZhVD6bkQDilhL6EBOHtIfjjZqdUa9xO5IStLzoW3CpEp3yEpl-JfLO5aIY713Vn1Zc_HksAmRFEi-U8k5N7mXTOb_19NjeAZWBhj_Im__TDM8m1CfrWsQR2GaFcXhiqj9MemRINo4X0TB5YECcN82TmK1b_O_-EsY7DMfH7KyLM_BgX7pZNRYjRmsHCln1rSdWqsvuN-dv3U6IVV08ZUVU_Pn1surLX9WpG4pXY5TnQvvZVutJX-K5XO-8eq-6fTae-fkjecaHXRWKknOcQryvVu3DWPz57ZdIZf1P8A9j2UwnclGosLfzbt5HcsqAqQdLQInSoEV_pTCckuCWOrLZwD2Jg9-zTebFb6JpVx0ac1K1VY17GmeuqTjBqZOJO7XunoA7waGrle_t2257l1cKakymMSCmeTffaCpCj1PkhHJ5qSt0wArl99Pxh4zmgBem98HqWjvl46uhJ8-x1jPWcWJ-JGnFVTfCnJdJwLKTgIFcoCN5ee3FR2D9eNQIXu5CJIel8kVGROgUqfNH35AvBXDYK1mi7g-MNHEpD4IJNxaKYYr7aWN1kZ-uJJeziTfKDYJrysFPwv3ptfBI57vSfbefpFUEplQ9ciICZ5Pkbr8oMUv21gNrs4qLGX-dT2xCyhISHtQo-iOTl2f_c3Urvz7DGWwGKNHDBK2Wd90d5JzDS2MR4B0SPf2bnEA5_S-g8wNZ-RE79wbW3iHP9WRJ3GYH9QgiTCgw0CWwDAlYk-SlRMue7Z2dWEGfpZO_TXHkAZ=w960-h600-s-no-gm?authuser=0',
-            descripcion:'',
+            imagen: 'https://scontent.fmdz5-1.fna.fbcdn.net/v/t39.30808-6/415781275_350776527579864_4669061884079850274_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=3635dc&_nc_ohc=TDLxICFsSJ0AX-djxrh&_nc_ht=scontent.fmdz5-1.fna&oh=00_AfDdzvD46MhEVX-86f3bdb51lg7peD7uVzD--NZqDM6wJg&oe=6593990C',
+            descripcion: '',
             urlHost: 'https://training-gym-system.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
         {
             title: 'Blog',
-            imagen:'https://lh3.googleusercontent.com/pw/ABLVV85GqzSUEYfeuVskvwX8hbqxUtUiHkPYVa-zHPuEU-3I5gDKInKfrAP36end87qWWXP8NN8jSLMa1cNS_SS5Uohj3soBOJEQytik2E4p5aH_Zf7WVS2hkfROr4dRwrBHxXuFtLeTZFUfdBLECzdSP95CyP7OB-XmxzSx0Y9g_ai1lojhnYgixnN53yTnPAIf7z8qovimlMWkqB17pzyu-NscM_g2FtjZWg7uEfVcI6A0O0BeOwoV2hDjjD-oEMi-_HSImtBzQwc4e7hvfbQsNrm0VWbvkOQMT3zXTc7JcXDUy9XKF7Pu6fk8ferhgWdU63snNBpfyoOwTKMD8fhnxJPb9JRYrbSc4rjuFpXRiCIiwGuZKpJpbGi_G95QDyDB6CFB3HATS0EwCiMrOhDd4q-6LBzXsrlDNkk_hN-Ej5ftecMPlfq7ivwAjqWU6P5ceZuH5nebQOMRBx5wjnviVn5Pk6CLWNkrWiUgRs5WRCExMeLvgHdK6XUblqJHJ0RWpX0tbGvDx3UUbJGBnmdV9GX69eR6j7Y7oCuZUr5aBvhY7YrxlDNrNnZwKBDMKyHJJiO4hJMf-e0G1VXHXxNZ9JItgqmByUPnLzdGWa4odIGR7xVSZcvIhXNQji1Oc3ZA09547lFgXh-md0IBEAkwwDOGXCI3heocR_LZ8hLln47DI85kdH_jRrYX2y9EZx3SEzlVAxImgGVgD3sACZS6v2HTY0ivIot5atPnL5RoAMqmX-gePHonJpaPkUCEoBijU70fMZDDzgZTrvq2YKv6tDmHpSamNYBiTX2vt2iaELULTnvEvZJ3lkQs-xGbfB3J_RruoxTnnfzlmPwnzczyOhcntWfae3I21i158WPPyFRL7xRaTV_m6civN5CLS6oDWgtCj-_PJcpybIg2cy-WXDCcnP0M3NujbZk_yigN=w960-h600-s-no-gm?authuser=0',
-            descripcion:'',
+            imagen: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415759671_350776484246535_3878285665071901903_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=3635dc&_nc_ohc=pdOlu58nfJwAX_m_y6G&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfCsyGeP084w9e0cGmqMVHSQs6VNUHVqX6eYIDnWRM8ezA&oe=6594A8E6',
+            descripcion: '',
             urlHost: 'https://documentacionpp2.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
         {
             title: 'Blog de Café',
-            descripcion:'',
-            imagen:'https://lh3.googleusercontent.com/pw/ABLVV85SU6fI7zpJjAeGiwPNc32cpS26di6Ij6QNntlP31Zbm9FiaobujfWg5krJH_Uu3P4Msd5XziMZvrSs_4oz0AYJA6mesbxZ4Df-ocySjqSCXQEGuuKs1K0AK1pVr2yI6QUwFyV2TbIzR-XWqXhxVj_Hs1T1jldo4v9aoL-GpfaJnvEe4o3db2Ei9bLoeIsn-3PSUAFlZPy1d7CjYt8gEDbfMlMXzpd5vpfpZn2KlTu0iNZMGippUs_YApx1Lf6ScLlxMSDWshDeg4t_H345wUo4bY0HxS279Dhl92qJsw1dIlaVxg-Y0a8nDlRGXvDG8vB-uLivmtIylbEVKBLQ0opMQd5l1PlxEEnpiiiKL6S0aSbwhobDrLTYUxBHpRQJOHVSYYWN5qdNIu55h-o2te3S_cG1ASk4FlrVzTe75dnTf0Y5aQFdUI3QJ6f3g7RaqB487ncxycwFV7lSRaKvq5iidNDf5HkQrq66fsoprXeTuwpcv5-DwRcQ2b14AsVai-ftyxvXxUxLCzp9KFWt91mnT_B4wJSgFngmrGIzJIwtzGjoaklrYe_yIq9hPQ1fvxWbnz-9lFN1wnbg8RvJqqhNH4Rq8gr0kmHJVaKzWsKTcSbY14HCbcjhgQEmJBIl3Jnf56SDFCdfhziSghFFd1bK8NA8zFRbPHcavg9hc05UHp-G3RqKUkOuTXefyGxvVRaslSp9FprTCLup4T_mFfQQDG4j_UFWW8v2xCump99nc2zZHipNOAdR4SN1D9-OL5lMZI9ygr8l0zhX5jF4VZ3JH2Jxn_PMDFyLlrd01yLR5hN2SbRa5Ie3A872_NvIi4G49gHVbVrgS2igWQNx-LqaKu3os5nPunS9WCwZVGE9tbUuWqSfPpxuxN-1Gqx4W4GUHgxktYeTCgfz3_uWh4-1htJWLjpWRN8vt_jU=w960-h600-s-no-gm?authuser=0',
+            descripcion: '',
+            imagen: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415805946_350776340913216_667814552696981863_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0JvhZj72kvIAX-DK7-9&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfDw3_QtLqQiiN3Dx1Mr9vvr67ULbRSlns-lvxPSI1uo6A&oe=65938EEF',
             urlHost: 'https://optimistic-fermat-9e3b0b.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
         {
             title: 'Frontend Store',
-            descripcion:'',
-            imagen:'https://lh3.googleusercontent.com/pw/ABLVV84MNLxipiE7_zegeOQdY_o05KEBg11JBqiPLtF56Xe-xnBUm52h1Z4Ch1lTbJu1SLm_fajM_BLRXMVSm_bTZcFzc5YumSitLxMzV_e-uYLDMtgQdpW-Imw6maY42sT0OMDl_8yQZ-xbwTiGD4gTtAjadJlX1id7CtcaO6vlrUL8OUS5nu-nE3MuCwzA6xOyUg0OxLGY78kqd8yruHQrTLjgFhfvI6OdepSsRi-eSCqkPS3_s80OICYGLiD575FGOThWnBuhjUtupOstF7SwdMRg8CXvB_zimTGDxQcsaEyNpnw__U_d6KFHKr9Dja1q-ho7BW8zz2MdprkJQgIB88nsAXCeungr40rEHHCChLvp5jKNRqMK54uSu8_spbI0t2E9j2YzZYaemxafbs3CGVU0zaDGYMpy5jAv2bOEwr18VgWo7yijyun4uZzDmmQexuimNuTZxlLhAY2y4fiRjsodPliff5NGvSOsYA3YpgxWpvDSSqk4x1eUal7A2JMKIYB8FP7pTz1l0asTLuUIQvYdlQ0WuhmYW2hmLJuRNSy8PllfUb0SlcCOxGA66Kk9LIZU7hwt3URhYmGR3r9WPQoG3eSwqMuvzOSdx4rDitmrcl8e9-Nb5D9PTyibx0Rpi9-QvrzHp52-thpSymVKczP0iSowa_xTKL-U3PEmORpW1B1mgW-BSQQgMuKpX1dpPb7XrJX5TGtWsts73LG0n9-AKwV6LQrDW33koFTXhf72aM9X8Oo0yC_HSBahCSjl8PMCPGVH7_UL5ci_-oEFxG5BIL8SGgd4kBy4S5_Yi1VyMT91jE9QNoiIJKy5LzqvMCJq1ceSDzwXK2uJND_WMmqdHYNz384d7d5PNLyXPsyu8TtJy_Iw-PSJnYvnXvYteAawvUlYeBERLityHPs90rzr2-5TKRJYZwysdKBM=w960-h600-s-no-gm?authuser=0',
+            descripcion: '',
+            imagen: 'https://scontent.fmdz5-1.fna.fbcdn.net/v/t39.30808-6/415742444_350776320913218_3049016215416342035_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=dz_Pc_4qNwQAX8ir2UU&_nc_ht=scontent.fmdz5-1.fna&oh=00_AfA_vyw79OJYMHxW2guCKhCWFvWzMPkKDFBCAc2unEuOmg&oe=65941CF3',
             urlHost: 'https://frontend-store-70f6cc.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
         {
             title: 'Pirateria Informática',
-            imagen:'https://lh3.googleusercontent.com/pw/ABLVV84HGq70yYD1YvL2GvCOs8fi1GLQq6LGhXBzzHV-IOACuyHQWiabB0fTgqwu3SU4Kb4VdYGiuWtnTmoA8cZpF7_n0Tgk8n7gP05gBVAdM-AzA3bBftS5QAJcETN9A5Btxmc_Wtsm0-x521gTiDIEJijnfz3Um5EJ2B6oH8M5ymIVKSwZ8FGpxFZixM5gZvz4ySvsLECgm23liNBqBjoeEHVnvu8kqrTfPXHYWxohYUQe46U0IAYtyHQiAvTOA1iLNzcAjMjSwj1WQz-zEgZcyb63QafV5PwCCrwbcatvt_HELF5N52Ga3V_8HavjbYy0MmmQlR8v3mDTInsueLPhWl6R9agRaPXhTuES-yZHVmFnJhpLiwI05rZZD9cIgtWOoWR0lkTLhWg3-fEh2lZ2c4GzmNvPAIA-vb7hRgE17Jk3sILMgMZFvewblPItryUk0zsGtY2Ba2zGczyktXp5tGjJ9tqc3MB5np2RIa81AI-PkVtGAEw7Fo6sMZMfOBSVob2we_vRjcUOMQDjn5aDpylT7XChpE81BLV6idAlgLAfLUOyQHvlZ0iXWlPHCZOgK2osIE6EQO_ONwY7YoHbXTLjONI1_4JgnQxVqNcFC_7xWU3DDpD4CBQq-DyyrIdUj0FjReyWK_sdUIWqUXQpNkLSMksuG7DIuIG9HThVSGJPtZteCBx2Zai5U8OEx6ZQDwgAzcvhl2cDk1U752eYBTmi7RzDh-VypxT1kFw8CLPEtJYDNxaoRa2pF4D9CryE92jB1wyrv7PUgSPV-l-roSzruJLtH3BscyBnDdbCrdPlI7ey_Fz0GRGs87uYDwE5W1pZJ7AjNktW6gcDUtlL1uYdrmzoJOB2PmkD9Bz082J8yUH7pwVhkv-vUfAhP8wRWk-WA7qZ_EMxwVLdx_LQ64qJs9tBhicYZunczLp7=w960-h600-s-no-gm?authuser=0',
-            descripcion:'',
+            imagen: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415789487_350776390913211_2852291986553563138_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=xAG7TdR9gQgAX8Knd0X&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfAql6z60YkrjoJPVDKbulbaMiNh3frHSjf-39CLZHkZXg&oe=6594024C',
+            descripcion: '',
             urlHost: 'https://cool-praline-b8d12c.netlify.app/',
-            urlGit:'',
-            urlManual:'',
-            urlDoc:''
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
         },
     ];
 

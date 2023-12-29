@@ -13,8 +13,8 @@ function Article() {
         {
             nombre: 'Ubuntu Informe',
             descripcion: 'Un Informe de Ubuntu',
-            url: 'https://docs.google.com/document/d/1ha_uXqHHTWKvWgNYsYEevZwJOngcAdibr_gac5pW00w/edit?usp=sharing',
-            imagen: 'https://lh3.googleusercontent.com/pw/ADCreHc_xHwPiBkUxAX8Kj-X6hClHRUe98yecb0_mOjTmD21xRFlfnK7y3AkZrh0IvRueeH98vmgAkwHiRLzPVnQ_dXLa_LQIoYivD4OH1G85HJiQDLZjVfVaNHBy_RWQX4h_xlZinkiLhJxC6W9fcKzehHbnLD_ubZO-k4xs8MgT8_Zp0KKG02UKDHjKCyi37aMOnzYwYYinF22TFkyV3LpJK_1vGCodEkpLgHw-ooWjfIBB5j6VfdQwFvky85I0FjwYdRwdQcqvGZvN3kP9B3dN-eel8IoxueT-m0bLhIcKbXHjIX2wYYJKpl8Tez9Ui75JD5KC2c3dNb3IstEU8OHGKdBXL0PhE3KfeaSzJANw2Iyxl5gjfUzAW59rJv6SH9ERh84EX1SmQbFygYXAhUEFxODgM_BzLCuOfsdBcEPlbPlbwXp53QwD4yIo9AcwcH-sT6794uZIEBbDApmh-nVxHzKcwBjZqmNlr3c1mntbTNZ4exjAmfzY_kQEAcScTNQxsw1GVmO2n6y5DGzuU2-79LmavVmzxlIYsg9aBNxQlb8L6P2XMXupZ2s0RebyKnlmDp3W7A-7cZv3SGzFs-FfINcNwE-71i7imzKpMsJDAreVgYFpFSvCbFxMOQ_W2FC1JhlbtbTTwjnHz8N8Sx-lZQ3BPaQ4xqEGw1sI3LcIWaDjSY-CcIr8evnKDc9j-CSzTrVSnwFLvVYsxmvET9l32eFuH6XZt85khSt1WHFdHv4YOxSKtrM_5T6WoIKUnJXotGlFszPOqa16RFyPkwHnVPLN8_7NnoBIIVqm4bTHQy8lRqt8PE3f2h2gurxCAN3Cnr_O1JfcwCK83KJPyS0F2juBE84zrmPAWcbEmuGJuGbty3M4VfSXRgKefguKb9MN97V2CH8YJ5TATIvMhXtUglBYpu-lQ0a9q4boVtD8Lbo_r2Yc-e1YAGtXQwP=w223-h316-no?authuser=0'
+            url: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415765983_350782364245947_4822594384801323096_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=xrM8F31WG5oAX-gBmuU&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfAPj90CKZZEU8YMbwSnzB0mZnCgI76e1IBrgn3VMnaHIg&oe=65941BE4',
+            imagen: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415763468_350780517579465_5740587106392361834_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=NIiE4_a7NRAAX90mGA4&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfA3UOUbhzdiR6OCKO5-6HrLmv2rYGuAoavsMY-iRZ43Xg&oe=65936067'
 
         }
     ];
