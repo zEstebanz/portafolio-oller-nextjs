@@ -8,11 +8,8 @@ const nextConfig = {
 };
 
 module.exports = {
-  // Otras configuraciones...
-  nextConfig,
 
   images: {
-    domains: ['*'],
     domains: ['i.ytimg.com'],
     domains: ['images.unsplash.com'],
     domains: [
