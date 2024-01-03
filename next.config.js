@@ -15,6 +15,7 @@ module.exports = {
     domains: [
       'facebook.com',
       'fbcdn.net',
+      "esteban-oller.netlify.app"
     ],
   },
 };
