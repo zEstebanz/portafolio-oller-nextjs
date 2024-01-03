@@ -25,7 +25,7 @@ function Article() {
     ];
 
     return (
-        <main className='section-port'>
+        <main className='section-sec'>
             <div className='port'>
                 <h1 className="title text-white">Articulo</h1>
                 <p className="sub-title">Mis bibliotecas de PDF más importantes</p>

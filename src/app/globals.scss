@@ -9,12 +9,36 @@ $awita: #236a51;
 $violet: #6a236a;
 $celeste: #5CC8FF;
 $verdeFluor: #04e824;
+$back: #060309;
+$tr: #24022e1c;
 
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-nav {
+  background-color: $negro;
+}
+
+.section-main {
+  background-image: url("https://www.pixel4k.com/wp-content/uploads/2021/03/hooded-jacket-boy-smiling-minimal-dark-4k_1614617827-2048x1152.jpg.webp");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  height: auto;
+}
+.section-sec{
+  background-color: $back;
+}
 .titlePort {
   font-size: 50px;
   text-align: center;
   font-weight: 600;
-  color: $negro;
+  color: $blanco;
   padding-top: 180px;
 }
 
@@ -22,8 +46,9 @@ $verdeFluor: #04e824;
   padding-top: 10px;
 
   .title {
+    margin-top: 80px;
     font-size: 50px;
-    color: $negro;
+    color: $blanco;
     text-align: center;
     font-weight: 600;
   }
@@ -35,104 +60,41 @@ $verdeFluor: #04e824;
   }
 }
 
-
-.boxCustom {
-  background-color: #163f3188;
+.container-project {
+  background-color: $tr;
+  transition: background-color 0.3s ease-in-out;
+  
 }
 
-.buttonCustom {
-  background-color: $awita;
-  border-radius: 5px;
+/* Otros estilos específicos del contenedor */
+.container-project h3 {
+  color: #fff;
+  padding-bottom: 20px;
+  /* Color del texto del encabezado */
 }
 
-.buttonCustom:hover {
-  background-color: #163f31;
+.container-project .image {
+  border-radius: 10px;  
 }
 
-.buttonCustom2 {
-  background-color: $violet;
-  border-radius: 5px;
+.container-project .buttonCustom {
+  background-color: #ff4500;
 }
 
-.buttonCustom2:hover {
-  background-color: #441644;
+
+
+.image {
+  transition: transform 0.3s ease-in-out;
 }
 
-.buttonCustom3 {
-  background-color: $blanco;
-  color: #08090a;
-  font-weight: 600;
-  border-radius: 5px;
-}
-
-.buttonCustom3:hover {
-  background-color: #1a1d20;
-}
-
-.boxCustom {
-  background-color: #163f31;
+.image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid #ffffff;
 }
 
 .bgFooter {
   background-color: #222222;
-}
-
-.box {
-
-  .sidebar {
-    background-color: #5CC8FF;
-    position: relative;
-    width: 12em;
-    height: 60px;
-    top: 15%;
-  }
-
-  .animation {
-    position: relative;
-    height: 20px;
-    top: 20px;
-    bottom: 20px;
-    background: #fff;
-
-    .sol {
-      background: yellow;
-      position: relative;
-      height: 10px;
-      width: 2em;
-      top: 5px;
-      bottom: 5px;
-      right: 5em;
-      left: 5em;
-      border-radius: 100%;
-    }
-  }
-
-}
-
-// En tu archivo SCSS
-
-.imgMarkdown {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  @media (min-width: 768px) {
-    max-width: 80%;
-  }
-
-  @media (min-width: 1024px) {
-    max-width: 60%;
-  }
-
-  @media (min-width: 1280px) {
-    max-width: 90%;
-  }
-
-  @media (max-width: 480px) {
-    max-width: 80%;
-  }
 }
 
 .carousel-container {
@@ -154,29 +116,5 @@ $verdeFluor: #04e824;
       }
     }
 
-    .slick-prev,
-    .slick-next {
-      font-size: 2rem;
-      color: white;
-    }
-
-    .slick-prev {
-      left: -2.5rem;
-    }
-
-    .slick-next {
-      right: -2.5rem;
-    }
-
-    .slick-dots {
-      bottom: -2rem;
-
-      li {
-        button {
-          font-size: 1rem;
-          color: white;
-        }
-      }
-    }
   }
 }

@@ -15,7 +15,7 @@ export default function Home() {
     autoplaySpeed: 3000, // Cambia esto para ajustar la velocidad del carrusel
   };
   return (
-    <main className='h-auto min-h-screen bg-white dark:bg-dark'>
+    <main className='section-main h-auto min-h-screen bg-white dark:bg-dark'>
       <div className="port bg-port">
         <h1 className="titlePort">Esteban Oller</h1>
 

@@ -96,7 +96,7 @@ function Proyecto() {
     ];
 
     return (
-        <main className='section-port h-auto min-h-screen'>
+        <main className='section-main h-auto min-h-screen'>
             <div className='port'>
                 <h1 className="title text-white">Projects</h1>
                 <p className="sub-title">Mis proyectos mas importantes</p>
@@ -105,26 +105,26 @@ function Proyecto() {
                 <div className="container">
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8 p-8">
                         {projects.map((project, index) => (
-                            <div key={index} className="boxCustom h-100 text-white p-4 rounded-lg shadow-lg">
+                            <div key={index} className="container-project h-100 text-white p-4 shadow-lg">
                                 <a
                                     href={`/project?imagen=${encodeURIComponent(project.imagen)}&title=${encodeURIComponent(project.title)}&descripcion=${encodeURIComponent(project.descripcion)}&urlManual=${encodeURIComponent(project.urlManual)}&urlDoc=${encodeURIComponent(project.urlDoc)}&urlGit=${encodeURIComponent(project.urlGit)}&urlHost=${encodeURIComponent(project.urlHost)}`}
                                 >
                                     <h3 className="text-2xl font-bold text-center title-text">{project.title}</h3>
                                     <img
                                         src={project.imagen}
-                                        className="block h-60 object-cover rounded-lg"
+                                        className="block h-60 object-cover image"
                                         alt={project.title}
                                     />
                                 </a>
-                                <div className="card-body mt-3 text-center">
-                                    {/* <p className="text-gray-300">#</p> */}
+                                {/* <div className="card-body mt-3 text-center">
+                                     <p className="text-gray-300">#</p> 
                                     <a
                                         href={`/project?imagen=${encodeURIComponent(project.imagen)}&title=${encodeURIComponent(project.title)}&descripcion=${encodeURIComponent(project.descripcion)}&urlManual=${encodeURIComponent(project.urlManual)}&urlDoc=${encodeURIComponent(project.urlDoc)}&urlHost=${encodeURIComponent(project.urlHost)}`}
-                                        className="buttonCustom text-white mt-2 py-1 px-4 rounded-full inline-block"
+                                        className="buttonCustom text-white mt-2 py-1 px-4 inline-block"
                                     >
                                         Examinar
                                     </a>
-                                </div>
+                                </div> */}
                             </div>
                         ))}
                     </div>

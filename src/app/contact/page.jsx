@@ -2,7 +2,7 @@
 export default function Contact() {
 
     return (
-        <section className='section-port h-auto min-h-screen'>
+        <section className='section-sec h-auto min-h-screen'>
             <div className='container'>
                 <div className='port'>
                     <h2 className='title'>¡Hablemos!</h2>

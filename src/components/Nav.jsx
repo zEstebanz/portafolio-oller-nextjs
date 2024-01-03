@@ -1,51 +1,76 @@
-"use client"
+"use client";
 import Link from "next/link";
-import React from 'react';
-import { IoPersonOutline, IoHomeOutline, IoMailOutline, IoHammerOutline, IoLibraryOutline, IoArchiveOutline } from 'react-icons/io5';
+import React, { useState } from "react";
+import NavLink from "./Navbarlink";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import MenuOverlay from "./MenuOverlay";
 
-const Nav = () => {
+const navLinks = [
+    {
+        title: "About",
+        path: "/about",
+    },
+    {
+        title: "Projects",
+        path: "/projects",
+    },
+    {
+        title: "Articles",
+        path: "/articles",
+    },
+    {
+        title: "Contact",
+        path: "/contact",
+    },
+];
 
-    const NavLink = ({ href, children }) => (
-        <Link href={href} passHref>
-            {React.cloneElement(children, {})}
-        </Link>
-    );
+const Navbar = () => {
+    const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (
-        <aside className="h-full w-16 flex flex-col items-center justify-center fixed right-0 text-white">
-            {/* Iconos en el panel derecho */}
-            <NavLink href="/" className="rounded-lg h-10 bg-black w-10">
-                <div className="bg-black h-10 w-10 flex items-center justify-center cursor-pointer hover:text-gray-800 hover:bg-white">
-                    <IoHomeOutline size={24} />
-                </div>
-            </NavLink>
+        <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-nav">
+            <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+                <Link
+                    href={"/"}
+                    className="text-2xl md:text-5xl text-white font-semibold"
+                >
+                    <h1 className="text-white">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700">
+                            <span className="text-white">Logo</span>
+                        </span>
+                    </h1>
+                </Link>
 
-            <NavLink href="/about">
-                <div className="bg-black h-10 w-10 flex items-center justify-center cursor-pointer hover:text-gray-800 hover:bg-white">
-                    <IoPersonOutline size={24} />
+                <div className="mobile-menu block md:hidden">
+                    {!navbarOpen ? (
+                        <button
+                            onClick={() => setNavbarOpen(true)}
+                            className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+                        >
+                            <Bars3Icon className="h-5 w-5" />
+                        </button>
+                    ) : (
+                        <button
+                            onClick={() => setNavbarOpen(false)}
+                            className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"
+                        >
+                            <XMarkIcon className="h-5 w-5" />
+                        </button>
+                    )}
                 </div>
-            </NavLink>
-
-            <NavLink href="/projects" className="backgroundBotonNav">
-                <div className="bg-black h-10 w-10 flex items-center justify-center cursor-pointer hover:text-gray-800 hover:bg-white">
-                    <IoHammerOutline size={24} />
+                <div className="menu hidden md:block md:w-auto" id="navbar">
+                    <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
+                        {navLinks.map((link, index) => (
+                            <li key={index}>
+                                <NavLink href={link.path} title={link.title} />
+                            </li>
+                        ))}
+                    </ul>
                 </div>
-            </NavLink>
-
-            <NavLink href="/articles">
-                <div className="bg-black h-10 w-10 flex items-center justify-center cursor-pointer hover:text-gray-800 hover:bg-white">
-                    <IoLibraryOutline size={24} />
-                </div>
-            </NavLink>
-            
-            <NavLink href="/contact">
-                <div className="bg-black h-10 w-10 flex items-center justify-center cursor-pointer hover:text-gray-800 hover:bg-white">
-                    <IoMailOutline size={24} />
-                </div>
-            </NavLink>
-
-        </aside>
+            </div>
+            {navbarOpen ? <MenuOverlay links={navLinks} /> : null}
+        </nav>
     );
-}
+};
 
-export default Nav;
+export default Navbar;

@@ -49,7 +49,7 @@ function Project() {
     }, []);
 
     return (
-        <section className='section-port h-auto min-h-screen'>
+        <section className='section-sec h-auto min-h-screen'>
             <div className='port pb-8'>
                 <h1 className='title'>{titulo}</h1>
 
