@@ -8,15 +8,20 @@ function Article() {
             nombre: 'FoodGo',
             descripcion: 'Documentacion del proyecto FoodGo',
             url: 'https://docs.google.com/document/d/1XpOgEdDDbbbn2nr9s6MwrKSjviO_IaZ1clLgH-e7Z-k/edit?usp=sharing',
-            imagen: 'https://lh3.googleusercontent.com/pw/ADCreHfN_es9-cTOw_KM3lqd6ClPa4eOBB5xMMF9AlrSeKdoL6v72sQLauPaIgJlnaYEU__TtQ54xTmxnVfPoYPf2iRgBpNyut_cNuGzPZrVf7LfjOVnnxxxAqs1ttaO6VG3XHemchBXn46VrK3OlfE5i1j_wtfqqSV6TrQs2KENGQvdNDMuCZ91juHJWuLKqMw2RP0N9GQ-rgYRigtufWYKbzsYjEzNjWFwOanfRsWiLYIcY21-arn7PnY4mu4k9tKnpHu1NFay4As1RSfHLd4iGHKO0Q-8UShOBeYp47mAXv6PSDnPDg3bENQ_xkF5Y3w-FAEoHhu1aJrP1N_mt5MBbVj3RurcTqr9lwHqhAqpiYtXGY_4VL_AKtbWvwGBXM6gpOpAypARNTlYFKqaJaRQs-g2wg6Twh7Xg_pwPRKpwgt6FkEuJwTxdkpHJmtlyyHHlPo6VyVwZiOotmuIG27zTheLKgoFQu7fVFgmSU61bjWp6Jgvy7VMRkwo0a02TVq6egMNVxj7-J-m4dsSNbMgbSrm7smUblzG30GktAe-hd2P76cXOg9SNZZ0ZPvdHmKONA5O2nD1x3FoLd3PZjjnHehRQbwxLcACAGN_YT1-DKMm5a_ATcemfl8ZC__Vf403YJQ5n9M5Lcs5o96Bhng6Er73Hun4el_oV0drz4WGO_FH9OqcWPswIMaGnqaRTi2YHTqNKNmP3FZ7cshNcmmwl9qyHvLUcxUKT1mBL7jz1xKnNF61U7LJJbMDibeHJi25BapeggQaREw3f7QIs4suSXvAQpYSvCC3NmZVr__X1IinvhjHXo854FS9VV4yHlqeVoJa375p1fB71C70y3paB1I7wQRQM-J2O77Hwjo5tH5BH7u7ZI9jFdMfNvLPpzh60z93bBBC8fX9SoWxPiP5uPh9eIs92PS3qlQX4E8q52znTtod6lnKqSrdCSsC=w464-h657-s-no-gm?authuser=0'
+            imagen: 'https://zestebanz.github.io/my-gallery/public/img/articulos/Documentacion%20-%20FoodGo.png'
         },
         {
             nombre: 'Ubuntu Informe',
             descripcion: 'Un Informe de Ubuntu',
             url: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415765983_350782364245947_4822594384801323096_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=xrM8F31WG5oAX-gBmuU&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfAPj90CKZZEU8YMbwSnzB0mZnCgI76e1IBrgn3VMnaHIg&oe=65941BE4',
-            imagen: 'https://scontent.fmdz4-1.fna.fbcdn.net/v/t39.30808-6/415763468_350780517579465_5740587106392361834_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=3635dc&_nc_ohc=NIiE4_a7NRAAX90mGA4&_nc_ht=scontent.fmdz4-1.fna&oh=00_AfA3UOUbhzdiR6OCKO5-6HrLmv2rYGuAoavsMY-iRZ43Xg&oe=65936067'
-
-        }
+            imagen: 'https://zestebanz.github.io/my-gallery/public/img/articulos/Ubuntu%20Informe.png'
+        },
+        {
+            nombre: 'Diccionario Tailwind',
+            descripcion: 'Un diccionario de Tailwind con las clases mas importantes',
+            url: 'https://docs.google.com/document/d/1gPSlTP7o-rQ-XLmpCgdbixjYTHCKFCyg880UI5e-TA8/edit?usp=sharing',
+            imagen: 'https://zestebanz.github.io/my-gallery/public/img/articulos/Diccionario%20Tailwind.png'
+        },
     ];
 
     return (
