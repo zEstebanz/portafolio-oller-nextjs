@@ -105,7 +105,7 @@ function Proyecto() {
     ];
 
     return (
-        <main className='section-main h-auto min-h-screen'>
+        <main className='section-sec h-auto min-h-screen'>
             <div className='port'>
                 <h1 className="title text-white">Projects</h1>
                 <p className="sub-title">Mis proyectos mas importantes</p>
