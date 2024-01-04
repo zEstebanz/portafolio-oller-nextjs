@@ -22,10 +22,10 @@ function Proyecto() {
             urlDoc: ''
         },
         {
-            title: 'FoodGo',
-            descripcion: 'Este proyecto utiliza tecnologías como React, Next.js y Tailwind CSS para... Herramientas utilizadas: React, Next.js, Tailwind CSS',
-            imagen: 'https://i.ibb.co/YQNzZN4/foodgo.jpg',
-            urlHost: 'https://optimistic-fermat-9e3b0b.netlify.app/',
+            title: 'Diario-MK',
+            imagen: 'https://zestebanz.github.io/my-gallery/public/img/projectos/12.png',
+            descripcion: '',
+            urlHost: 'https://diario-mk-ewi8.vercel.app/',
             urlGit: '',
             urlManual: '',
             urlDoc: ''
@@ -53,6 +53,15 @@ function Proyecto() {
             imagen: 'https://zestebanz.github.io/my-gallery/public/img/projectos/8.png',
             descripcion: '',
             urlHost: 'https://documentacionpp2.netlify.app/',
+            urlGit: '',
+            urlManual: '',
+            urlDoc: ''
+        },
+        {
+            title: 'FoodGo',
+            descripcion: 'Este proyecto utiliza tecnologías como React, Next.js y Tailwind CSS para... Herramientas utilizadas: React, Next.js, Tailwind CSS',
+            imagen: 'https://i.ibb.co/YQNzZN4/foodgo.jpg',
+            urlHost: 'https://optimistic-fermat-9e3b0b.netlify.app/',
             urlGit: '',
             urlManual: '',
             urlDoc: ''
