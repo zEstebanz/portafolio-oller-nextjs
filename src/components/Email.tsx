@@ -56,8 +56,7 @@ const EmailSection = () => {
                     </h5>
                     <p className="text-[#ADB7BE] mb-4 max-w-md">
                         {" "}
-                        En este momento, estoy buscando nuevas oportunidades en el mundo IT, estoy disponible para cualquier consulta y responder tus preguntas, así que no dudes en ponerte en contacto. Gracias!
-                    </p>
+                        Si quieres ponerte en contacto conmigo, puedes hacerlo a través de las redes sociales o rellenando el formulario de contacto. Te responderé cuanto antes. ¡De verdad que sí! </p>
                     <div className="socials flex flex-row gap-2">
                         <Link href="https://www.linkedin.com/in/tu_usuario_de_LinkedIn" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="text-white icon" />
