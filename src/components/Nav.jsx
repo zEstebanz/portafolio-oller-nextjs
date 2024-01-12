@@ -7,7 +7,7 @@ import MenuOverlay from "./MenuOverlay";
 
 const navLinks = [
     {
-        title: "About",
+        title: "About Me",
         path: "/about",
     },
     {
@@ -36,7 +36,7 @@ const Navbar = () => {
                 >
                     <h1 className="text-white">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700">
-                            <span className="text-white">Logo</span>
+                            <span className="text-white">E<span className="span">O</span></span>
                         </span>
                     </h1>
                 </Link>
@@ -58,6 +58,7 @@ const Navbar = () => {
                         </button>
                     )}
                 </div>
+                
                 <div className="menu hidden md:block md:w-auto" id="navbar">
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         {navLinks.map((link, index) => (
@@ -72,5 +73,5 @@ const Navbar = () => {
         </nav>
     );
 };
-
+    
 export default Navbar;

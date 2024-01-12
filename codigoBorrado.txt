@@ -13,3 +13,52 @@
                 <IoSettingsOutline size={24} />
             </div>
         </aside>
+
+
+          {/* Carrusel */}
+          <div className="carousel-container">
+            <Slider {...settings}>
+
+              <div>
+                {/* Contenido del primer slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/react.png" alt="Slide 1" width={50} height={50} />
+              </div>
+
+              <div>
+                {/* Contenido del primer slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/node.png" alt="Slide 1" width={50} height={50} />
+              </div>
+
+              <div>
+                {/* Contenido del segundo slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/mongo.png" alt="Slide 2" width={50} height={50} />
+              </div>
+
+              <div>
+                {/* Contenido del segundo slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/next2.png" alt="Slide 2" width={50} height={50} />
+              </div>
+
+              <div>
+                {/* Contenido del segundo slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/sql.png" alt="Slide 2" width={50} height={50} />
+              </div>
+
+              <div>
+                {/* Contenido del segundo slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/sass.png" alt="Slide 2" width={50} height={50} />
+              </div>
+
+              <div>
+                {/* Contenido del segundo slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/gitRed.png" alt="Slide 2" width={50} height={50} />
+              </div>
+
+              <div>
+                {/* Contenido del segundo slide */}
+                <Image src="https://esteban-oller.netlify.app/src/img/ico/docker.png" alt="Slide 2" width={50} height={50} />
+              </div>
+            </Slider>
+          </div>
+        </div>
+        {/* Fin del carrusel */}
