@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 /* Nav */
-.bg-nav {
+.nav {
   background-color: #08090a;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .section-sec {
-  background-color: #08090a;
+  margin: 0 5%;
 }
 
 .titlePort {

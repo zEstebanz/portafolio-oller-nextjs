@@ -1,5 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
+import { FaGithub, FaLinkedin, FaNewspaper  } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -13,12 +15,16 @@ const Footer = () => {
           </Link>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
             <li className="flex items-center">
-              <img src="" className="h-7 mr-1" />
-              <Link href="/contact" className="text-2xl hover:underline md:mr-6 text-white">Instagram</Link>
+              <img src="" className="h-7 mr-6" />
+              <Link href="https://github.com/zEstebanz" className="text-2xl hover:underline md:mr-6 text-white"><FaGithub /> </Link>
             </li>
             <li className="flex items-center">
-              <img src="" className="h-7 mr-1" />
-              <Link href="/contact" className="text-2xl hover:underline md:mr-6 text-white">Facebook</Link>
+              <img src="" className="h-7 mr-6" />
+              <Link href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" className="text-2xl hover:underline md:mr-6 text-white"><FaLinkedin /></Link>
+            </li>
+            <li className="flex items-center">
+              <img src="" className="h-7 mr-6" />
+              <Link href="https://diario-mk.vercel.app/" className="text-2xl hover:underline md:mr-6 text-white"><FaNewspaper  /></Link>
             </li>
           </ul>
         </div>

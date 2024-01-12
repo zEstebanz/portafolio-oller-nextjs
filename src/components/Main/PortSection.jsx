@@ -2,7 +2,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Link from "next/link";
-import { FaGithub, FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload } from "react-icons/fa";
+import { FaLinkedin, FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload } from "react-icons/fa";
 import { RiTestTubeFill } from "react-icons/ri";
 import Image from "next/image";
 
@@ -13,11 +13,11 @@ const PortSection = () => {
             <div className="typing text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
                 <TypeAnimation
                     sequence={[
-                        "Software Technician",
+                        "Técnico en software",
                         1000,
-                        "Web Developer",
+                        "Desarrollador web",
                         1000,
-                        "UI/UX Designer",
+                        "Diseñador UI/UX",
                         1000,
                     ]}
                     wrapper="span"
@@ -26,13 +26,13 @@ const PortSection = () => {
                 />
             </div>
             <div className="button-container flex mt-4">
-                <Link href="/ruta-del-botón-1">
+                <Link href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" target="_blank">
                     <p className="button-link flex items-center">
-                        <FaGithub className="button-icon mr-2" />
-                        GitHub
+                        <FaLinkedin className="button-icon mr-2" />
+                        Linkedin
                     </p>
                 </Link>
-                <Link href="/ruta-del-botón-2">
+                <Link href="/ruta-del-botón-2" target="_blank">
                     <p className="button-link flex items-center ml-4">
                         Descargar CV
                         <FaDownload className="button-icon ml-2" />

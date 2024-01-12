@@ -15,7 +15,7 @@ $back: #060309;
 $tr: #24022e1c;
 
 /* Nav */
-.bg-nav {
+.nav {
   background-color: $negro;
 }
 
@@ -47,7 +47,6 @@ $tr: #24022e1c;
   margin: 50px;
   color: $blanco;
 }
-
 /*End Globales*/
 
 /* Section Port */
@@ -124,7 +123,7 @@ $tr: #24022e1c;
 }
 
 .section-sec {
-  background-color: $negro;
+  margin: 0 5%;
 }
 
 .titlePort {
@@ -155,8 +154,6 @@ $tr: #24022e1c;
 .container-project .buttonCustom {
   background-color: #ff4500;
 }
-
-
 
 .image {
   transition: transform 0.3s ease-in-out;

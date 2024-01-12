@@ -4,8 +4,6 @@ import EmailSection from '../components/Email';
 
 export default function Home() {
   return (
-
-
     <main className='main h-auto min-h-screen bg-white dark:bg-black pb-8'>
       <PortSection></PortSection>
       <hr className='line-div' />

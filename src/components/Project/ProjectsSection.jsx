@@ -12,7 +12,7 @@ const projectsData = [
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/pixel-arcade-mongodb.git",
-    previewUrl: "/",
+    previewUrl: "",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/zEstebanz/MendoPleg.git",
+    previewUrl: "https://mendopleg.netlify.app/",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projectsData = [
     description: "",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/12.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/zEstebanz/Diario-MK",
     previewUrl: "https://diario-mk.vercel.app/",
   },
   {
@@ -37,8 +37,8 @@ const projectsData = [
     title: "Rick & Morty API",
     description: "",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/5.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
+    tag: ["All", "Api"],
+    gitUrl: "https://github.com/zEstebanz/Rick-Morty-API-in-ReactJS.git",
     previewUrl: "https://marvelous-lebkuchen-8fe5f7.netlify.app/",
   },
   {
@@ -47,8 +47,8 @@ const projectsData = [
     description: "",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/9.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/zEstebanz/Training-Gym.git",
+    previewUrl: "https://training-gym-system.netlify.app/",
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ const projectsData = [
     description: "",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "",
     previewUrl: "https://frontend-store-70f6cc.netlify.app/",
   },
 ];
@@ -80,9 +80,9 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects" className="section-about">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+    <section id="projects" className="section-sec">
+      <h2 className="text-center text-4xl font-bold text-white mb-8 md:mb-12">
+        Mis Proyectos
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
@@ -97,8 +97,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Api"
+          isSelected={tag === "Api"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
