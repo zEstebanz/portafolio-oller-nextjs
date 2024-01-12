@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaGithub, FaLinkedin, FaNewspaper  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaNewspaper } from "react-icons/fa";
 
 
 const Footer = () => {
@@ -16,15 +16,15 @@ const Footer = () => {
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
             <li className="flex items-center">
               <img src="" className="h-7 mr-6" />
-              <Link href="https://github.com/zEstebanz" className="text-2xl hover:underline md:mr-6 text-white"><FaGithub /> </Link>
+              <Link href="https://github.com/zEstebanz" className="icon text-2xl hover:underline md:mr-6 text-white" target='_blank'><FaGithub /> </Link>
             </li>
             <li className="flex items-center">
               <img src="" className="h-7 mr-6" />
-              <Link href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" className="text-2xl hover:underline md:mr-6 text-white"><FaLinkedin /></Link>
+              <Link href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" className="icon text-2xl hover:underline md:mr-6 text-white" target='_blank'><FaLinkedin /></Link>
             </li>
             <li className="flex items-center">
               <img src="" className="h-7 mr-6" />
-              <Link href="https://diario-mk.vercel.app/" className="text-2xl hover:underline md:mr-6 text-white"><FaNewspaper  /></Link>
+              <Link href="https://diario-mk.vercel.app/" className="icon text-2xl hover:underline md:mr-6 text-white" target='_blank'><FaNewspaper /></Link>
             </li>
           </ul>
         </div>
@@ -32,9 +32,6 @@ const Footer = () => {
         <span className="block text-lg text-gray-500 sm:text-center dark:text-white textFooter">2024, <Link href="https://docs.google.com/document/d/1mvDJvf6r2iy5AcjhwRjMr0Mekp3u7H5RYqvORB15muE/edit?usp=sharing" className="hover:underline textFooter" target='_blank'>Esteban <span className='span'>Oller</span></Link>.</span>
       </div>
     </footer>
-
-
-
   );
 };
 

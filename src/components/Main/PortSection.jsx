@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const PortSection = () => {
     return (
-        <section className="section-port">
+        <section className="section-port" id="home">
             <h2 className='subtitle text-lg'>Hola, soy Esteban <span>Oller</span></h2>
             <div className="typing text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
                 <TypeAnimation
@@ -16,8 +16,6 @@ const PortSection = () => {
                         "Técnico en software",
                         1000,
                         "Desarrollador web",
-                        1000,
-                        "Diseñador UI/UX",
                         1000,
                     ]}
                     wrapper="span"
@@ -29,7 +27,7 @@ const PortSection = () => {
                 <Link href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" target="_blank">
                     <p className="button-link flex items-center">
                         <FaLinkedin className="button-icon mr-2" />
-                        Linkedin
+                        Contáctame
                     </p>
                 </Link>
                 <Link href="/ruta-del-botón-2" target="_blank">

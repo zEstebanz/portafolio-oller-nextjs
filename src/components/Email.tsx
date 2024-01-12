@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import Link from "next/link";
 
 const EmailSection = () => {
@@ -58,12 +59,15 @@ const EmailSection = () => {
                         En este momento, estoy buscando nuevas oportunidades en el mundo IT, estoy disponible para cualquier consulta y responder tus preguntas, así que no dudes en ponerte en contacto. Gracias!
                     </p>
                     <div className="socials flex flex-row gap-2">
-                        <a href="https://www.linkedin.com/in/tu_usuario_de_LinkedIn" target="_blank" rel="noopener noreferrer">
-                            <FaLinkedin className="text-white" style={{ fontSize: '34px' }} />
-                        </a>
-                        <a href="https://github.com/tu_usuario_de_GitHub" target="_blank" rel="noopener noreferrer">
-                            <FaGithubSquare className="text-white" style={{ fontSize: '34px' }} />
-                        </a>
+                        <Link href="https://www.linkedin.com/in/tu_usuario_de_LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin className="text-white icon" />
+                        </Link>
+                        <Link href=" https://wa.me/2612528276" target="_blank" rel="noopener noreferrer">
+                            <FaWhatsapp className="text-white icon" />
+                        </Link>
+                        <Link href="mailto:estebanoller73@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <MdEmail className="text-white icon" />
+                        </Link>
                     </div>
                 </div>
                 <div>

@@ -35,6 +35,15 @@
   color: #ffffff;
 }
 
+.icon {
+  font-size: 34px;
+}
+
+.icon:hover {
+  color: #38b388;
+  transition: 0.5s;
+}
+
 /*End Globales*/
 /* Section Port */
 .section-port {

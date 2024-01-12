@@ -13,6 +13,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/pixel-arcade-mongodb.git",
     previewUrl: "",
+    docUrl: "https://docs.google.com/document/d/1PMzYSpLcjtN7fy9kQ1bZwXiEuCQWZYszcN49b00NCMk/edit?usp=sharing",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/MendoPleg.git",
     previewUrl: "https://mendopleg.netlify.app/",
+    docUrl: "",
   },
   {
     id: 3,
@@ -31,6 +33,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Diario-MK",
     previewUrl: "https://diario-mk.vercel.app/",
+    docUrl: "",
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ const projectsData = [
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/Rick-Morty-API-in-ReactJS.git",
     previewUrl: "https://marvelous-lebkuchen-8fe5f7.netlify.app/",
+    docUrl: "",
   },
   {
     id: 5,
@@ -49,6 +53,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Training-Gym.git",
     previewUrl: "https://training-gym-system.netlify.app/",
+    docUrl: "",
   },
   {
     id: 6,
@@ -58,6 +63,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "",
     previewUrl: "https://frontend-store-70f6cc.netlify.app/",
+    docUrl: "",
   },
 ];
 
@@ -116,6 +122,7 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
+              docUrl={project.docUrl}
               previewUrl={project.previewUrl}
             />
           </motion.li>
