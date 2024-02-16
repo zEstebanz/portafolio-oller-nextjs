@@ -18,6 +18,10 @@ const navLinks = [
         title: "Contact",
         path: "#contact",
     },
+    {
+        title: "Blog",
+        path: "https://diario-mk.vercel.app/",
+    },
 ];
 
 const Navbar = () => {
@@ -54,7 +58,7 @@ const Navbar = () => {
                         </button>
                     )}
                 </div>
-                
+
                 <div className="menu hidden md:block md:w-auto" id="navbar">
                     <ul className="flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0">
                         {navLinks.map((link, index) => (
@@ -62,6 +66,9 @@ const Navbar = () => {
                                 <NavLink href={link.path} title={link.title} />
                             </li>
                         ))}
+                        <li>
+                            <Link href={"/CV"} className="text-[#ff4500] hover:text-[#b43000]">CV</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -69,5 +76,5 @@ const Navbar = () => {
         </nav>
     );
 };
-    
+
 export default Navbar;

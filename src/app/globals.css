@@ -47,7 +47,7 @@
 /*End Globales*/
 /* Section Port */
 .section-port {
-  padding-top: 150px;
+  padding-top: 120px;
   padding-left: 20px;
   height: auto;
   min-height: 100vh;
@@ -78,6 +78,16 @@
   color: #ffffff;
   font-weight: 800;
 }
+.section-port .icon-down {
+  color: #ffffff;
+}
+.section-port .icon-down:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
+}
+.section-port .icon-down:not(hover) {
+  transition: 0.5s;
+}
 
 /* End Section Port */
 /* Section About */
@@ -87,13 +97,6 @@
 }
 
 /* End Section About */
-/* Section Projects*/
-.section-projects {
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-/* End Section Projects*/
 .border-center {
   border: 10px solid #ff4500;
   text-align: center;
@@ -103,10 +106,13 @@
   margin-top: 100px;
 }
 
+/* Section Sec*/
 .section-sec {
+  padding-top: 100px;
   margin: 0 5%;
 }
 
+/* End Section Sec*/
 .titlePort {
   font-size: 50px;
   text-align: center;
