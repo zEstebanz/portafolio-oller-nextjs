@@ -41,7 +41,7 @@ const EmailSection = () => {
     return (
         <section
             id="contact"
-            className="section-about"
+            className="section-sec"
         >
             <h2 className="text-center text-4xl font-bold text-white">
                 Mis Contactos

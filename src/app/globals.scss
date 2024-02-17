@@ -66,25 +66,10 @@ $tr: #24022e1c;
   padding-left: 20px;
   height: auto;
   min-height: 100vh;
-  margin-left: 5%;
-  margin-right: 5%;
 
   .subtitle {
-    color: $blanco;
-
-    span {
-      color: $naranja;
-    }
+    color: white;
   }
-
-  .typing {
-    color: #afb0be;
-
-    span {
-      color: $awita;
-    }
-  }
-
 
   .button-link {
     background-color: $naranja;
@@ -139,6 +124,8 @@ $tr: #24022e1c;
 .section-sec {
   padding-top: 100px;
   margin: 0 5%;
+  min-height: 100vh;
+  height: auto;
 }
 /* End Section Sec*/
 
