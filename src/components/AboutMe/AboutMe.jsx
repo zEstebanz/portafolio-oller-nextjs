@@ -28,7 +28,7 @@ function AboutMe() {
                     </p>
                 </div>
 
-                <p className="text-white mb-2">Soy autodidacta y comprometida con el aprendizaje continuo. Siempre estoy buscando mejorar mis habilidades y aprender nuevas tecnologías para seguir siendo relevante en el cambiante campo del desarrollo de software.</p>
+                <p className="text-white mb-2">Soy autodidacta con el aprendizaje continuo. Siempre estoy buscando mejorar mis habilidades y aprender nuevas tecnologías para seguir siendo relevante en el cambiante campo del desarrollo de software.</p>
 
                 <div className="text-white mb-2">
                     <p>¡No dudes en
