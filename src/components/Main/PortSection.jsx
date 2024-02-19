@@ -27,7 +27,7 @@ const PortSection = () => {
             <div className="container mx-auto flex flex-col justify-center items-center">
                 <h2 className="subtitle text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center mb-4">Hola, <span>soy</span></h2>
 
-                <h1 className="text-4xl md:text-8xl font-bold items-center">Esteban Oller.</h1>
+                <h1 className="text-4xl md:text-8xl font-bold items-center">Esteban Oller</h1>
 
                 <h2 className="subtitle text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">Software <span className="text-[#38b388]">Developer.</span></h2>
 
@@ -46,6 +46,49 @@ const PortSection = () => {
                     </Link>
                 </div>
             </div>
+
+            <div className="pt-5 font-bold">
+                <p className="text-white">
+                    <span className="flex items-center mt-2">
+                        Mis Habilidades:
+                    </span>
+                    <span className="flex items-center">
+                        <FaRegFileCode className="button-icon mr-2" />HTML & CSS | JavaScript | TypeScript.
+                    </span>
+                </p>
+                <p className="text-white">
+                    <span className="flex items-center">
+                        <FaReact className="button-icon mr-2" />React.js | Next.js | Tailwind CSS | SASS.
+                    </span>
+                </p>
+                <p className="text-white">
+                    <span className="flex items-center">
+                        <FaBackward className="button-icon mr-2" /> Node.js | Express.js | Java.
+                    </span>
+                </p>
+                <p className="text-white">
+                    <span className="flex items-center">
+                        <FaDatabase className="button-icon mr-2" /> Mongo DB | MySQL.
+                    </span>
+                </p>
+                <p className="text-white">
+                    <span className="flex items-center">
+                        <FaGithub className="button-icon mr-2" /> GitHub | <FaDocker className="button-icon mr-2 ml-2" /> Docker | <FcLinux className="button-icon mr-2 ml-2" /> Linux.
+                    </span>
+                </p>
+                <p className="text-white">
+                    <span className="flex items-center mt-2">
+                        Estoy Aprendiendo:
+                    </span>
+                    <span className="flex items-center">
+                        <RiTestTubeFill className="button-icon mr-2" /> Jest | React Testing Library.
+                    </span>
+                    <span className="flex items-center">
+                        <SiAstro className="button-icon mr-2" /> Astro | <SiNestjs className="button-icon mr-2 ml-2" />Nest.
+                    </span>
+                </p>
+            </div>
+
 
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8">
                 <Link to="about-me" smooth duration={1000} >

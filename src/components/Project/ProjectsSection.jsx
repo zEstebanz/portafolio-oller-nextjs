@@ -37,7 +37,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Frontend Store",
+    title: "Api React R&M",
     description: "",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/14.png",
     tag: ["All", "Api"],
@@ -83,6 +83,16 @@ const projectsData = [
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/star-wars-api.git",
     previewUrl: "https://star-wars-api-omega.vercel.app/",
+    docUrl: "",
+  },
+  {
+    id: 9,
+    title: "FavPage",
+    description: "",
+    image: "",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/zEstebanz/FavPage.git",
+    previewUrl: "https://fav-page-one.vercel.app/",
     docUrl: "",
   },
 ];
