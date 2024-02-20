@@ -38,9 +38,51 @@ function AboutMe() {
                         </Link>
                     </p>
                 </div>
+
+                <div className="pt-5 font-bold">
+                    <p className="text-white">
+                        <span className="flex items-center mt-2">
+                            Mis Habilidades:
+                        </span>
+                        <span className="flex items-center">
+                            <FaRegFileCode className="button-icon mr-2" />HTML & CSS | JavaScript | TypeScript.
+                        </span>
+                    </p>
+                    <p className="text-white">
+                        <span className="flex items-center">
+                            <FaReact className="button-icon mr-2" />React.js | Next.js | Tailwind CSS | SASS.
+                        </span>
+                    </p>
+                    <p className="text-white">
+                        <span className="flex items-center">
+                            <FaBackward className="button-icon mr-2" /> Node.js | Express.js | Java.
+                        </span>
+                    </p>
+                    <p className="text-white">
+                        <span className="flex items-center">
+                            <FaDatabase className="button-icon mr-2" /> Mongo DB | MySQL.
+                        </span>
+                    </p>
+                    <p className="text-white">
+                        <span className="flex items-center">
+                            <FaGithub className="button-icon mr-2" /> GitHub | <FaDocker className="button-icon mr-2 ml-2" /> Docker | <FcLinux className="button-icon mr-2 ml-2" /> Linux.
+                        </span>
+                    </p>
+                    <p className="text-white">
+                        <span className="flex items-center mt-2">
+                            Estoy Aprendiendo:
+                        </span>
+                        <span className="flex items-center">
+                            <RiTestTubeFill className="button-icon mr-2" /> Jest | React Testing Library.
+                        </span>
+                        <span className="flex items-center">
+                            <SiAstro className="button-icon mr-2" /> Astro | <SiNestjs className="button-icon mr-2 ml-2" />Nest.
+                        </span>
+                    </p>
+                </div>
             </div>
 
-          
+
         </section>
     )
 }
