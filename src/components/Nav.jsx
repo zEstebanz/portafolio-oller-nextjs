@@ -32,11 +32,11 @@ const Navbar = () => {
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <Link
                     href={"/"}
-                    className="text-2xl md:text-5xl text-white font-semibold"
+                    className="text-2xl md:text-3xl text-white font-semibold"
                 >
                     <h1 className="text-white">
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700">
-                            <span className="text-white">E<span className="span">O</span></span>
+                            <span className="text-white"><span className="span">E</span>steban;</span>
                         </span>
                     </h1>
                 </Link>
@@ -66,9 +66,6 @@ const Navbar = () => {
                                 <NavLink href={link.path} title={link.title} />
                             </li>
                         ))}
-                        <li>
-                            <Link href={"/CV"} className="text-[#ff4500] hover:text-[#b43000]">CV</Link>
-                        </li>
                     </ul>
                 </div>
             </div>

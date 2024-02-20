@@ -56,15 +56,14 @@
   color: white;
 }
 .section-port .button-link {
-  background-color: #ff4500;
-  color: #ffffff;
+  background-color: #0c5c40;
+  color: black;
   font-weight: 800;
   padding: 5px;
   border-radius: 5px;
 }
 .section-port .button-link:hover {
-  background-color: #b43000;
-  color: #ffffff;
+  background-color: #2a8666;
   font-weight: 800;
 }
 .section-port .icon-down {

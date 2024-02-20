@@ -38,57 +38,15 @@ const PortSection = () => {
                             <FaLinkedin className="button-icon ml-2" />
                         </p>
                     </Link>
-                    <Link href="/ruta-del-botón-2" target="_blank" className="button-link">
+                    <Link target="_blank" download className="button-link">
                         <p className="flex items-center text-lg md:text-xl">
                             Descargar CV
                             <FaDownload className="button-icon ml-2" />
                         </p>
                     </Link>
                 </div>
+                
             </div>
-
-            <div className="pt-5 font-bold">
-                <p className="text-white">
-                    <span className="flex items-center mt-2">
-                        Mis Habilidades:
-                    </span>
-                    <span className="flex items-center">
-                        <FaRegFileCode className="button-icon mr-2" />HTML & CSS | JavaScript | TypeScript.
-                    </span>
-                </p>
-                <p className="text-white">
-                    <span className="flex items-center">
-                        <FaReact className="button-icon mr-2" />React.js | Next.js | Tailwind CSS | SASS.
-                    </span>
-                </p>
-                <p className="text-white">
-                    <span className="flex items-center">
-                        <FaBackward className="button-icon mr-2" /> Node.js | Express.js | Java.
-                    </span>
-                </p>
-                <p className="text-white">
-                    <span className="flex items-center">
-                        <FaDatabase className="button-icon mr-2" /> Mongo DB | MySQL.
-                    </span>
-                </p>
-                <p className="text-white">
-                    <span className="flex items-center">
-                        <FaGithub className="button-icon mr-2" /> GitHub | <FaDocker className="button-icon mr-2 ml-2" /> Docker | <FcLinux className="button-icon mr-2 ml-2" /> Linux.
-                    </span>
-                </p>
-                <p className="text-white">
-                    <span className="flex items-center mt-2">
-                        Estoy Aprendiendo:
-                    </span>
-                    <span className="flex items-center">
-                        <RiTestTubeFill className="button-icon mr-2" /> Jest | React Testing Library.
-                    </span>
-                    <span className="flex items-center">
-                        <SiAstro className="button-icon mr-2" /> Astro | <SiNestjs className="button-icon mr-2 ml-2" />Nest.
-                    </span>
-                </p>
-            </div>
-
 
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8">
                 <Link to="about-me" smooth duration={1000} >

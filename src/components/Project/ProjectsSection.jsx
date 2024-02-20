@@ -89,7 +89,7 @@ const projectsData = [
     id: 9,
     title: "FavPage",
     description: "",
-    image: "",
+    image: "https://raw.githubusercontent.com/zEstebanz/portafolio-oller-nextjs/main/public/img/FavPage.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/FavPage.git",
     previewUrl: "https://fav-page-one.vercel.app/",
