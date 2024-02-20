@@ -32,20 +32,20 @@ const PortSection = () => {
                 <h2 className="subtitle text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-center">Software <span className="text-[#38b388]">Developer.</span></h2>
 
                 <div className="button-container flex flex-col sm:flex-row items-center mt-12">
-                    <Link href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" target="_blank" className="button-link mb-4 sm:mb-0 mr-0 sm:mr-4">
+                    <a href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" target="_blank" className="button-link mb-4 sm:mb-0 mr-0 sm:mr-4">
                         <p className="flex items-center text-lg md:text-xl">
                             Contáctame
                             <FaLinkedin className="button-icon ml-2" />
                         </p>
-                    </Link>
-                    <Link target="_blank" download className="button-link">
+                    </a>
+                    <a href="https://drive.google.com/file/d/1DY0P0PczrwATUi2nwoehHCGwjuqyLBrv/view?usp=sharing" target="_blank" className="button-link mb-4 sm:mb-0 mr-0 sm:mr-4">
                         <p className="flex items-center text-lg md:text-xl">
                             Descargar CV
                             <FaDownload className="button-icon ml-2" />
                         </p>
-                    </Link>
+                    </a>
                 </div>
-                
+
             </div>
 
             <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 mb-8">
