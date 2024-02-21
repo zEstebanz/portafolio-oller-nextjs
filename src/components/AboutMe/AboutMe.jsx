@@ -32,7 +32,7 @@ function AboutMe() {
 
                 <div className="text-white mb-2">
                     <p>¡No dudes en
-                        <Link to="contact" smooth duration={3000} className="ml-2 text-[#38b388] cursor-pointer">
+                        <Link to="contact" smooth duration={8000} className="ml-2 text-[#38b388] cursor-pointer">
                             contactarme!
                             <GiClick className="inline-block ml-1" />
                         </Link>
