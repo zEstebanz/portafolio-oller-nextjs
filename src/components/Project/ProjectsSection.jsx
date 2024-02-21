@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Pixel Arcade",
-    description: "",
+    description: "Next.js | MongoDB | Tailwind CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/pixel-arcade-mongodb.git",
@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "MendoPleg",
-    description: "",
+    description: "HTML 5 | Bootstrap | JS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/MendoPleg.git",
@@ -28,7 +28,7 @@ const projectsData = [
   {
     id: 3,
     title: "Diario-MK",
-    description: "",
+    description: "Next.js | Tailwind CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/12.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Diario-MK",
@@ -37,8 +37,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Api React R&M",
-    description: "",
+    title: "Api Next.js R&M",
+    description: "Next.js | Tailwind CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/14.png",
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/rick---morty-api-nextjs.git",
@@ -48,7 +48,7 @@ const projectsData = [
   {
     id: 5,
     title: "Rutinas Gym",
-    description: "",
+    description: "HTML | SCSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/9.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Training-Gym.git",
@@ -58,7 +58,7 @@ const projectsData = [
   {
     id: 6,
     title: "Frontend Store",
-    description: "",
+    description: "HTML | CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/3.png",
     tag: ["All", "Web"],
     gitUrl: "",
@@ -67,8 +67,8 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "Rick & Morty API",
-    description: "",
+    title: "API React.js R&M",
+    description: "React.js | CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/5.png",
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/Rick-Morty-API-in-ReactJS.git",
@@ -78,7 +78,7 @@ const projectsData = [
   {
     id: 8,
     title: "Star Wars API",
-    description: "",
+    description: "Next.js | Tailwind CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/15.png",
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/star-wars-api.git",
@@ -88,7 +88,7 @@ const projectsData = [
   {
     id: 9,
     title: "FavPage",
-    description: "",
+    description: "Next.js | Tailwind CSS",
     image: "https://raw.githubusercontent.com/zEstebanz/portafolio-oller-nextjs/main/public/img/FavPage.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/FavPage.git",
