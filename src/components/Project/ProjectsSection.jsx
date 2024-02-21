@@ -37,7 +37,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Api Next.js R&M",
+    title: "API R&M",
     description: "Next.js | Tailwind CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/14.png",
     tag: ["All", "Api"],
@@ -67,7 +67,7 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "API React.js R&M",
+    title: "API R&M",
     description: "React.js | CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/5.png",
     tag: ["All", "Api"],
@@ -77,7 +77,7 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "Star Wars API",
+    title: "API Star Wars",
     description: "Next.js | Tailwind CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/15.png",
     tag: ["All", "Api"],
@@ -113,6 +113,7 @@ const ProjectsSection = () => {
   const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: { y: 0, opacity: 1 },
+    mobile: { y: 0, opacity: 1 }, // Variante específica para móviles
   };
 
   return (
@@ -145,6 +146,7 @@ const ProjectsSection = () => {
             initial="initial"
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
+            className="mobile-card-variant" // Clase para aplicar la variante móvil
           >
             <ProjectCard
               key={project.id}
