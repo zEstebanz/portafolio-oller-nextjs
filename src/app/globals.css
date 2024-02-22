@@ -101,6 +101,15 @@
   min-height: 100vh;
   height: auto;
 }
+.section-sec .box-about-me {
+  background-color: #222222;
+  padding: 50px;
+}
+.section-sec .skills {
+  background-color: #0c5c40;
+  border-radius: 20px;
+  padding: 15px;
+}
 
 /* End Section Sec*/
 .titlePort {
