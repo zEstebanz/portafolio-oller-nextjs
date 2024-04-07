@@ -3,12 +3,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { GiClick } from 'react-icons/gi';
-import { FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload, FaGithub, FaDocker } from 'react-icons/fa';
-import { FaWindows } from "react-icons/fa";
-import { FaChevronDown } from 'react-icons/fa';
-import { RiTestTubeFill } from 'react-icons/ri';
-import { SiAstro, SiNestjs } from 'react-icons/si';
-import { FcLinux } from 'react-icons/fc';
+
 
 function AboutMe() {
     return (
@@ -44,46 +39,7 @@ function AboutMe() {
                         </div>
                     </div>
 
-                    <div className="w-full md:w-1/2 lg:w-1/3 mt-8 md:mt-0 skills">
-                        <div className="font-bold">
-
-                            <div className="text-white items-center">
-                                <p>Mis Habilidades:</p>
-
-                                <p className="flex items-center">
-                                    <FaRegFileCode className="mr-2" />HTML & CSS | JavaScript | TypeScript.
-                                </p>
-                                <p className="flex items-center">
-                                    <FaReact className="mr-2" />React.js | Next.js | Tailwind CSS | SASS.
-                                </p>
-                                <p className="flex items-center">
-                                    <FaBackward className="mr-2" /> Node.js | Express.js | Java.
-                                </p>
-                                <p className="flex items-center">
-                                    <FaDatabase className="mr-2" /> Mongo DB | MySQL.
-                                </p>
-                                <p className="flex items-center">
-                                    <FaGithub className="mr-2" /> GitHub | <FaDocker className="mr-2 ml-2" /> Docker.
-                                </p>
-
-                                <p className="flex items-center">
-                                    <FcLinux className="mr-2" /> Linux. | <FaWindows className="mr-2 ml-2" />Windows
-                                </p>
-                            </div>
-
-                            <div className="text-white pt-5 items-center">
-                                <p>
-                                    Estoy Aprendiendo:
-                                </p>
-                                <p className="flex items-center">
-                                    <RiTestTubeFill className="mr-2" /> Jest | React Testing Library.
-                                </p>
-                                <p className="flex items-center">
-                                    <SiAstro className="mr-2" /> Astro | <SiNestjs className="mr-2" /> Nest.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    
 
                 </div>
             </div>

@@ -3,7 +3,6 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
-
 const projectsData = [
   {
     id: 1,
@@ -27,9 +26,9 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Diario-MK",
+    title: "Blog Peronal",
     description: "Next.js | Tailwind CSS",
-    image: "https://zestebanz.github.io/my-gallery/public/img/projectos/12.png",
+    image: "https://raw.githubusercontent.com/zEstebanz/my-gallery/6dea10ccb834524ca34f45207737b9e6662d0615/public/img/projectos/blog.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Diario-MK",
     previewUrl: "https://diario-mk.vercel.app/",
