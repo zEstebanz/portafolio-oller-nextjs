@@ -27,6 +27,20 @@ $tr: #24022e1c;
 /* End Nav */
 
 /*Globales*/
+
+/* Estilo para la barra de scroll */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: $negro;
+}
+
+/* Estilo para el indicador del scroll */
+::-webkit-scrollbar-thumb {
+  background-color: $awita2;
+  border-radius: 6px;
+}
+
+
 .text-color-white {
   color: $blanco;
 }
