@@ -33,9 +33,9 @@ const Navbar = () => {
             <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
                 <div className="flex items-center">
                     {/* Avatar */}
-                    <div className="mr-3">
+                    {/* <div className="mr-3">
                         <Image src="/img/yo.jpg" alt="Avatar" className="rounded-full" width={40} height={40} />
-                    </div>
+                    </div> */}
                     {/* Nombre del sitio */}
                     <Link href={"/"} className="text-2xl md:text-3xl text-white font-semibold">
                         <h1 className="text-white">
