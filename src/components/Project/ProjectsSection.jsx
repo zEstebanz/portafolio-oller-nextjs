@@ -49,7 +49,7 @@ const projectsData = [
     id: 4,
     title: "API R&M",
     description: "Next.js | Tailwind CSS",
-    image: "https://zestebanz.github.io/my-gallery/public/img/projectos/14.png",
+    image: "https://raw.githubusercontent.com/zEstebanz/portafolio-oller-nextjs/main/public/img/projects/react-api-nextjs.png",
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/rick---morty-api-nextjs.git",
     previewUrl: "https://rick-and-morty-api-khaki.vercel.app/",
