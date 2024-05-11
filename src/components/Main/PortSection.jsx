@@ -1,17 +1,19 @@
 "use client"
 import { Link } from "react-scroll";
-import { FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload, FaGithub, FaDocker, FaDiscord, FaUnity, FaExternalLinkAlt } from 'react-icons/fa';
-import { IoMdMail } from "react-icons/io";
+import { FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload, FaGithub, FaDocker, FaDiscord, FaUnity, FaExternalLinkAlt, FaCss3 } from 'react-icons/fa';
+import { IoLogoJavascript, IoMdMail } from "react-icons/io";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { FaWindows, FaAngular, FaChevronDown } from "react-icons/fa";
-import { RiTestTubeFill } from 'react-icons/ri';
-import { SiAstro, SiCsharp, SiNestjs } from 'react-icons/si';
+import { RiJavascriptLine, RiTestTubeFill } from 'react-icons/ri';
+import { SiAstro, SiCsharp, SiNestjs, SiNetlify, SiVercel } from 'react-icons/si';
+import { LuMonitorSmartphone } from "react-icons/lu";
 import { FcCommandLine } from "react-icons/fc";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FcLinux } from 'react-icons/fc';
 import { FcFinePrint } from "react-icons/fc";
 import { FcBriefcase } from "react-icons/fc";
 import { TfiLayoutMediaOverlay } from "react-icons/tfi";
+import { IoLogoVercel } from "react-icons/io5";
 
 import Image from "next/image";
 import BlogProject from '../../../public/img/projects/blog.png';
@@ -49,16 +51,20 @@ const PortSection = () => {
     return (
         <section className="section-port py-20 px-4 md:px-8 md:py-[110px]">
             <div className="wrapper">
-
+                {/* My Contacts */}
                 <div className="grid grid1">
                     <div className="header flex justify-center items-center">
                         <div className="flex items-center">
-                            <FaLinkedin className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
+                            <a href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" target="_blank">
+                                <FaLinkedin className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
+                            </a>
                         </div>
                     </div>
                     <div className="header flex justify-center items-center">
                         <div className="flex items-center">
-                            <FaDiscord className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
+                            <a href="">
+                                <FaDiscord className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
+                            </a>
                         </div>
                     </div>
                     <div className="header flex justify-center items-center">
@@ -67,7 +73,7 @@ const PortSection = () => {
                         </div>
                     </div>
                 </div>
-
+                {/* About me */}
                 <div className="grid grid2">
                     <div className="header">
                         <Image src={avatar} alt="Descripción de la imagen" width="100" height="100" />
@@ -78,7 +84,7 @@ const PortSection = () => {
                     </div>
                     <hr className='mx-8 border-[#00bd95]' />
                     <div className='about-me'>
-                        <div className="text-lg px-4 pt-6 sm:pt-0">
+                        <div className="text-lg px-4 pt-6 sm:pt-2 ">
                             <p className='mb-2 text-[16px]'>
                                 Soy Técnico en Software y me he especializado en desarrollo web. Además, tengo experiencia en áreas diversas, incluyendo bases de datos, desarrollo de juegos en Unity 2D, administración de sistemas Linux atraves de maquinas virtuales y uso de herramientas como Docker. También tengo conocimientos en hardware de computadoras, lo que me permite mantener infraestructuras de hardware de manera efectiva.
                             </p>
@@ -87,8 +93,8 @@ const PortSection = () => {
                             </p>
                             <div className="text-white mb-2">
                                 <p>
-                                    ¡No dudes en{' '}
-                                    <Link to="contact" smooth duration={8000} className="ml-2 text-[#38b388] cursor-pointer">
+                                    ¡No dudes en{''}
+                                    <Link to="contact" smooth duration={3000} className="ml-2 text-[#38b388] cursor-pointer">
                                         contactarme!
                                         <GiClick className="inline-block ml-1" />
                                     </Link>
@@ -97,7 +103,7 @@ const PortSection = () => {
                         </div>
                     </div>
                 </div>
-
+                {/* My proyects */}
                 <div className="grid grid3 relative">
                     <div className="py-4">
                         <p className="text-center text-lg">
@@ -145,7 +151,7 @@ const PortSection = () => {
                         </Link>
                     </div>
                 </div>
-
+                {/* My GitHub */}
                 <div rel="noopener noreferrer" className="grid grid4 hover:scale-105">
                     <div className="flex justify-between items-center mb-8">
                         <Link href="https://github.com/zEstebanz">
@@ -160,18 +166,24 @@ const PortSection = () => {
                         <p className="text-white text-base ml-2">Mi repositorio de proyectos, pruebas y experimentos</p>
                     </div>
                 </div>
-
+                {/* My Skills */}
                 <div className="grid grid5">
                     <p className="text-center pt-4 text-lg">Mis habilidades</p>
-                    <div className="w-full md:mt-0 pl-4 skills py-4 md:py-[16px]">
+                    <div className="w-full md:mt-0 pl-4 skills py-4">
                         <div className="">
                             <div className="text-white items-center">
 
                                 <p className="flex items-center">
-                                    <FaRegFileCode className="mr-2" />HTML & CSS | JavaScript | TypeScript.
+                                    <RiJavascriptLine className="mr-2" /> JavaScript | TypeScript.
                                 </p>
                                 <p className="flex items-center">
-                                    <FaReact className="mr-2" />React.js | Next.js | Tailwind CSS | SASS.
+                                    <FaReact className="mr-2" />React.js | Next.js | Vite.js
+                                </p>
+                                <p className="flex items-center">
+                                    <FaCss3 className="mr-2" />HTML & CSS | Tailwind CSS | SASS.
+                                </p>
+                                <p className="flex items-center">
+                                    <LuMonitorSmartphone className="mr-2" /> MaterialUI | Swipper | ShadcnUI.
                                 </p>
                                 <p className="flex items-center">
                                     <FaBackward className="mr-2" /> Node.js | Express.js | Java.
@@ -184,10 +196,13 @@ const PortSection = () => {
                                 </p>
 
                                 <p className="flex items-center">
-                                    <FcLinux className="mr-2" /> Linux. | <FaWindows className="mr-2 ml-2" />Windows
+                                    <FcLinux className="mr-2" /> Linux | <FaWindows className="mr-2 ml-2" />Windows.
                                 </p>
                                 <p className="flex items-center">
-                                    <FaUnity className="mr-2" /> Unity. | <SiCsharp className="mr-2 ml-2" />CSharp
+                                    <FaUnity className="mr-2" /> Unity | <SiCsharp className="mr-2 ml-2" />CSharp.
+                                </p>
+                                <p className="flex items-center">
+                                    <SiVercel className="mr-2" /> Vercel | <SiNetlify className="mr-2 ml-2" />Netlify.
                                 </p>
                             </div>
 
@@ -199,10 +214,10 @@ const PortSection = () => {
                                     <RiTestTubeFill className="mr-2" /> Jest | React Testing Library.
                                 </p>
                                 <p className="flex items-center">
-                                    <SiAstro className="mr-2" /> Astro | <SiNestjs className="mr-2" /> Nest.
+                                    <SiAstro className="mr-2" /> Astro | <SiNestjs className="mr-2 ml-2" /> Nest.
                                 </p>
                                 <p className="flex items-center">
-                                    <BiLogoSpringBoot className="mr-2" /> SpringBoot | <FaAngular className="mr-2" /> Angular.
+                                    <BiLogoSpringBoot className="mr-2" /> SpringBoot | <FaAngular className="mr-2 ml-2" /> Angular.
                                 </p>
                                 <p className="flex items-center">
                                     <MdOutlineSecurity className="mr-2" /> Ciberseguridad
@@ -211,9 +226,6 @@ const PortSection = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className="grid grid6">6</div>
-                <div className="grid grid7">7</div>
-                <div className="grid grid8">8</div> */}
             </div>
 
         </section>

@@ -3,7 +3,18 @@ import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
+import { title } from "process";
 const projectsData = [
+  {
+    id: 0,
+    title: 'Ubuntu-Semillero (ver en móvil)',
+    description: 'React.js | Material Ui',
+    image: "https://raw.githubusercontent.com/zEstebanz/my-gallery/e578e072443971421f39c7f46610cb3dbf57f08b/public/img/projectos/14.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/zEstebanz/Ubuntu-Semillero.git",
+    previewUrl: "https://ubuntu-semillero.vercel.app/",
+    docUrl: "",
+  },
   {
     id: 1,
     title: "Pixel Arcade",
