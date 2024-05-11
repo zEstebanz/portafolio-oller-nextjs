@@ -35,6 +35,7 @@ import '../../app/styles.css';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { MdOutlineSecurity } from "react-icons/md";
 
 const PortSection = () => {
 
@@ -202,6 +203,9 @@ const PortSection = () => {
                                 </p>
                                 <p className="flex items-center">
                                     <BiLogoSpringBoot className="mr-2" /> SpringBoot | <FaAngular className="mr-2" /> Angular.
+                                </p>
+                                <p className="flex items-center">
+                                    <MdOutlineSecurity className="mr-2" /> Ciberseguridad
                                 </p>
                             </div>
                         </div>
