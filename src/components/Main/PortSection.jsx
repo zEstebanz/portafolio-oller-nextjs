@@ -14,6 +14,7 @@ import { FcFinePrint } from "react-icons/fc";
 import { FcBriefcase } from "react-icons/fc";
 import { TfiLayoutMediaOverlay } from "react-icons/tfi";
 import { IoLogoVercel } from "react-icons/io5";
+import { FaItchIo } from "react-icons/fa";
 
 import Image from "next/image";
 import BlogProject from '../../../public/img/projects/blog.png';
@@ -62,8 +63,8 @@ const PortSection = () => {
                     </div>
                     <div className="header flex justify-center items-center">
                         <div className="flex items-center">
-                            <a href="">
-                                <FaDiscord className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
+                            <a href="https://esteban-oller.itch.io/">
+                                <FaItchIo className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
                             </a>
                         </div>
                     </div>

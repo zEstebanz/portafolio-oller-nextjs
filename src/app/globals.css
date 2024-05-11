@@ -133,7 +133,9 @@
   background-color: #38b388;
 }
 .section-port .wrapper .grid1 .header:nth-child(2) {
-  background-color: #387ab3;
+  background-image: url("https://i.pinimg.com/originals/eb/50/87/eb50875a68b04b0480fa929af2c7547c.gif");
+  background-size: cover;
+  background-position: center calc(50% - 5px);
 }
 .section-port .wrapper .grid1 .header:nth-child(3) {
   background-color: #6a236a;
