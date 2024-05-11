@@ -22,7 +22,6 @@ const EmailSection = () => {
     }, []);
 
     return (
-<<<<<<< HEAD
         <section
             id="contact"
             className="section-sec"
@@ -33,11 +32,6 @@ const EmailSection = () => {
 
             <div className="grid md:grid-cols-2 pt-[20px] md:pt-20 gap-4 relative">
 
-=======
-        <section id="contact" className="section-sec">
-            <h2 className="text-center text-4xl font-bold text-white">Mis Contactos</h2>
-            <div className="grid md:grid-cols-2 my-12 md:my-12 gap-4 relative">
->>>>>>> 6ba21f21b1e7d35a4d80cb5f3ba3d5e93638f180
                 <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
                 <div className="z-10 flex flex-col justify-center">
                         <div id="whatapp-people-widget"></div>
