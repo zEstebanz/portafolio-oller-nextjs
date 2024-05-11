@@ -13,6 +13,18 @@
 
 /* End Nav */
 /*Globales*/
+/* Estilo para la barra de scroll */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #08090a;
+}
+
+/* Estilo para el indicador del scroll */
+::-webkit-scrollbar-thumb {
+  background-color: #00bd95;
+  border-radius: 6px;
+}
+
 .text-color-white {
   color: #ffffff;
 }

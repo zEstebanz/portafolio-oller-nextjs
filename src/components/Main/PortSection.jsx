@@ -1,5 +1,6 @@
 "use client"
 import { Link } from "react-scroll";
+<<<<<<< HEAD
 import { FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload, FaGithub, FaDocker, FaDiscord, FaUnity, FaExternalLinkAlt } from 'react-icons/fa';
 import { IoMdMail } from "react-icons/io";
 import { BiLogoSpringBoot } from "react-icons/bi";
@@ -37,6 +38,20 @@ import '../../app/styles.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const PortSection = () => {
+=======
+import { FaChevronDown } from 'react-icons/fa';
+
+const PortSection = () => {
+    return (
+        <section className="section-port text-white py-20 px-4 md:px-8 md:py-[200px]">
+            <div className="container mx-auto">
+                
+                <div className="md:flex md:justify-between">
+                    <div className="md:w-1/2 lg:w-2/3">
+                        <h2 className="subtitle text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-4">Hola, <span>soy</span></h2>
+                        <h1 className="text-4xl md:text-8xl font-bold">Esteban Oller</h1>
+                        <h2 className="subtitle text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">Software <span className="text-[#38b388]">Developer.</span></h2>
+>>>>>>> 6ba21f21b1e7d35a4d80cb5f3ba3d5e93638f180
 
     const progressCircle = useRef(null);
     const progressContent = useRef(null);
@@ -55,6 +70,7 @@ const PortSection = () => {
                             <FaLinkedin className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
                         </div>
                     </div>
+<<<<<<< HEAD
                     <div className="header flex justify-center items-center">
                         <div className="flex items-center">
                             <FaDiscord className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
@@ -206,6 +222,8 @@ const PortSection = () => {
                             </div>
                         </div>
                     </div>
+=======
+>>>>>>> 6ba21f21b1e7d35a4d80cb5f3ba3d5e93638f180
                 </div>
                 {/* <div className="grid grid6">6</div>
                 <div className="grid grid7">7</div>
