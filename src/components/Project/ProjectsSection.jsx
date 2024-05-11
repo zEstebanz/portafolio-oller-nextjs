@@ -56,7 +56,7 @@ const projectsData = [
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/pixel-arcade-mongodb.git",
-    previewUrl: "https://pixel-arcade-qmgbj7m7s-zestebanzs-projects.vercel.app/",
+    previewUrl: "https://pixel-arcade-46i4ia5em-zestebanzs-projects.vercel.app/",
     docUrl: "https://docs.google.com/document/d/1PMzYSpLcjtN7fy9kQ1bZwXiEuCQWZYszcN49b00NCMk/edit?usp=sharing",
   },
   {
