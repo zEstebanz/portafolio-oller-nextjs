@@ -230,6 +230,11 @@
   margin-top: 100px;
 }
 
+.section-contact {
+  min-height: 70vh;
+  margin: 0 5%;
+}
+
 /* Section Sec*/
 .section-sec {
   margin: 0 5%;

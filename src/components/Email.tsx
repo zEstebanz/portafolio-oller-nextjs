@@ -41,7 +41,7 @@ const EmailSection = () => {
     return (
         <section
             id="contact"
-            className="section-sec"
+            className="section-contact"
         >
             <h2 className="text-center text-4xl font-bold text-white">
                 Mis Contactos
@@ -64,7 +64,7 @@ const EmailSection = () => {
                         <Link href=" https://wa.me/2612528276" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp className="text-white icon" />
                         </Link>
-                        <Link href="mailto:estebanoller73@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <Link href="mailto:estebanoller83@gmail.com" target="_blank" rel="noopener noreferrer">
                             <MdEmail className="text-white icon" />
                         </Link>
                     </div>

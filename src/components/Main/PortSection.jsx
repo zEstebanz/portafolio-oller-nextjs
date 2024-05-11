@@ -63,14 +63,16 @@ const PortSection = () => {
                     </div>
                     <div className="header flex justify-center items-center">
                         <div className="flex items-center">
-                            <a href="https://esteban-oller.itch.io/">
+                            <a href="https://esteban-oller.itch.io/" target="_blank">
                                 <FaItchIo className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
                             </a>
                         </div>
                     </div>
                     <div className="header flex justify-center items-center">
                         <div className="flex items-center">
-                            <IoMdMail className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
+                            <a href="mailto:estebanoller83@gmail.com">
+                                <IoMdMail className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
+                            </a>
                         </div>
                     </div>
                 </div>
