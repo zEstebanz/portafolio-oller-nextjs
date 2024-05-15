@@ -1,60 +1,112 @@
-import React from "react";
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
-import { IoIosDocument } from "react-icons/io";
+import React, { useState } from "react";
 import { FiGithub } from "react-icons/fi";
+import { IoIosDocument } from "react-icons/io";
+import { IoEyeSharp } from "react-icons/io5";
 import Link from "next/link";
 
-const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, docUrl }) => {
+const ProjectCard = ({ imgUrl, title, tools, description, gitUrl, previewUrl, docUrl }) => {
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const openModal = () => {
+    setModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+  };
+
+  const handleModalClick = (e) => {
+    if (e.target.classList.contains("modal-overlay")) {
+      closeModal();
+    }
+  };
+
   return (
     <div>
-      <div className="text-white rounded-t-xl mt-3 bg-[#181818] px-4">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
-      </div>
-
-      <div
-        className="h-52 md:h-52 relative group shadow-md overflow-hidden flex justify-center items-center"
-        style={{
-          background: `url(${imgUrl}) center center / cover no-repeat`,
-        }}
-      >
-        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
-          {gitUrl && (
-            <Link
-              href={gitUrl}
-              className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-              target="_blank"
-            >
-              <FiGithub className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-            </Link>
-          )}
-          {previewUrl && (
-            <Link
-              href={previewUrl}
-              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-              target="_blank"
-            >
-              <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-            </Link>
-          )}
-          {docUrl && (
-            <Link
-              href={docUrl}
-              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-              target="_blank"
-            >
-              <IoIosDocument className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-            </Link>
-          )}
+      <div>
+        <div className="text-white rounded-t-xl mt-3 bg-[#181818] px-4 cursor-pointer" onClick={openModal}>
+          <h5 className="text-xl font-semibold mb-2">{title}</h5>
         </div>
-      </div>
 
-      <div className="bg-[#181818] rounded-b-xl px-4">
-        <div className="flex justify-center mt-4 py-2">
-          <div className="mx-2 text-white">
-            {description}
+        <div
+          className="h-52 md:h-52 relative group shadow-md overflow-hidden flex justify-center items-center"
+          style={{
+            background: `url(${imgUrl}) center center / cover no-repeat`,
+          }}
+          onClick={openModal}
+        >
+
+        </div>
+        <div className="bg-[#181818] rounded-b-xl px-4" onClick={openModal}>
+          <div className="flex justify-center mt-4 py-2">
+            <div className="mx-2 text-white">
+              {tools}
+            </div>
           </div>
         </div>
       </div>
+
+      {modalOpen && (
+        <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center z-50 bg-black bg-opacity-50 modal-overlay" onClick={handleModalClick}>
+          <div className="bg-[#1c1c1c] rounded-xl p-4 md:p-8 max-w-lg overflow-hidden relative">
+            <button className="absolute top-4 right-4 text-gray-100 hover:text-[#00bd95]" onClick={closeModal}>
+              <svg
+                className="h-8 w-8"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </button>
+            <div className="flex flex-col md:flex-row items-center">
+              <div className="w-full md:w-1/2 mb-4 md:mb-0 md:mr-4">
+                <img src={imgUrl} alt={title} className="w-full h-auto rounded-xl" />
+              </div>
+              <div className="w-full md:w-1/2">
+                <h2 className="text-xl font-semibold text-white">{title}</h2>
+                <p className="text-[#00bd95] mt-2">{tools}</p>
+                {description && (
+                  <div>
+                    <h3 className="text-gray-200 mt-2">Descripcion:</h3>
+                    <p className="text-gray-400 text-base">{description}</p>
+                  </div>
+                )}
+                <div className="mt-4 flex flex-wrap">
+                  {gitUrl && (
+                    <Link href={gitUrl} target="_blank" passHref className="text-white hover:text-[#00bd95]">
+                      <p className="btn btn-primary mb-2 mr-2" rel="noopener noreferrer">
+                        <FiGithub className="inline mr-2" /> GitHub
+                      </p>
+                    </Link>
+                  )}
+                  {previewUrl && (
+                    <Link href={previewUrl} target="_blank" passHref className="text-white hover:text-[#00bd95]">
+                      <p className="btn btn-primary mb-2 mr-2" rel="noopener noreferrer">
+                        <IoEyeSharp className="inline mr-2" /> Preview
+                      </p>
+                    </Link>
+                  )}
+                  {docUrl && (
+                    <Link href={docUrl} target="_blank" passHref className="text-white hover:text-[#00bd95]">
+                      <p className="btn btn-primary mb-2" rel="noopener noreferrer">
+                        <IoIosDocument className="inline mr-2" /> Documentation
+                      </p>
+                    </Link>
+                  )}
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
     </div>
   );

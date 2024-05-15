@@ -7,7 +7,8 @@ import { title } from "process";
 const projectsData = [
   {
     title: 'Ubuntu-Semillero-Móvil',
-    description: 'React.js | Material Ui',
+    tools: 'React.js | Material Ui',
+    description: 'Trabajé en este proyecto, centrado en desarrollar y gestionar herramientas financieras para conectar inversores con proyectos de impacto. Como miembro del equipo de frontend, contribuí al desarrollo de la plataforma hasta alcanzar el MVP (Producto Mínimo Viable).',
     image: "https://raw.githubusercontent.com/zEstebanz/my-gallery/e578e072443971421f39c7f46610cb3dbf57f08b/public/img/projectos/14.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Ubuntu-Semillero.git",
@@ -16,7 +17,8 @@ const projectsData = [
   },
   {
     title: "Blog Peronal",
-    description: "Next.js | Tailwind CSS",
+    tools: "Next.js | Tailwind CSS",
+    description: "Este es un sitio web diseñado para compartir artículos y contenido de interés personal. Con una interfaz fácil de usar y un diseño atractivo, el blog invita a los usuarios a explorar una variedad de temas que son importantes para mí.",
     image: "https://raw.githubusercontent.com/zEstebanz/my-gallery/6dea10ccb834524ca34f45207737b9e6662d0615/public/img/projectos/blog.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Diario-MK",
@@ -25,7 +27,8 @@ const projectsData = [
   },
   {
     title: "MendoPleg",
-    description: "HTML 5 | Bootstrap | JS",
+    tools: "HTML 5 | Bootstrap | JS",
+    description: "Este Sitio Web de Mendopleg es un proyecto de renovación diseñado específicamente para una empresa metalúrgica ubicada en Mendoza. El objetivo del proyecto era modernizar y actualizar su sitio web existente, que se había vuelto obsoleto.",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/1.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/MendoPleg.git",
@@ -34,7 +37,8 @@ const projectsData = [
   },
   {
     title: "Pixel Aventure - Game",
-    description: "Unity 2D | C Sharp | En desarrollo",
+    tools: "Unity 2D | C Sharp | En desarrollo",
+    description: "Es un proyecto en desarrollo utilizando Unity 2D. Diseñado con el propósito principal de aprender el motor gráfico Unity, así como el lenguaje de programación C#, este juego está siendo desarrollado como parte del trabajo final para una materia de Arquitectura y Diseño de Interfaces en mi carrera universitaria.",
     image: "https://img.itch.zone/aW1hZ2UvNDkwODA3LzI1NDU5OTEuZ2lm/original/ElqZhb.gif",
     tag: ["All", "Unity"],
     gitUrl: "",
@@ -43,7 +47,8 @@ const projectsData = [
   },
   {
     title: "FavPage",
-    description: "Next.js | Tailwind CSS",
+    tools: "Next.js | Tailwind CSS",
+    description: "FavPage busca facilitar la búsqueda y organización de recursos en línea relevantes para la comunidad de desarrolladores de software.",
     image: "https://raw.githubusercontent.com/zEstebanz/portafolio-oller-nextjs/main/public/img/FavPage.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/FavPage.git",
@@ -52,7 +57,8 @@ const projectsData = [
   },
   {
     title: "Pixel Arcade",
-    description: "Next.js | MongoDB | Tailwind CSS",
+    tools: "Next.js | MongoDB | Tailwind CSS",
+    description: "Pixel Arcade es un proyecto desarrollado como parte de la materia de modelado de software, con el objetivo de crear un sistema de gestión integral para un arcade físico de juegos. Este sistema permite administrar todas las actividades relacionadas con la operación del arcade, incluyendo el registro de usuarios, la gestión de turnos y el control de equipos disponibles.",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/7.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/pixel-arcade-mongodb.git",
@@ -61,7 +67,7 @@ const projectsData = [
   },
   {
     title: "API R&M",
-    description: "Next.js | Tailwind CSS",
+    tools: "Next.js | Tailwind CSS",
     image: "https://raw.githubusercontent.com/zEstebanz/portafolio-oller-nextjs/main/public/img/projects/react-api-nextjs.png",
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/rick---morty-api-nextjs.git",
@@ -70,7 +76,7 @@ const projectsData = [
   },
   {
     title: "Rutinas Gym",
-    description: "HTML | SCSS",
+    tools: "HTML | SCSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/9.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/zEstebanz/Training-Gym.git",
@@ -79,7 +85,7 @@ const projectsData = [
   },
   {
     title: "Frontend Store",
-    description: "HTML | CSS",
+    tools: "HTML | CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/3.png",
     tag: ["All", "Web"],
     gitUrl: "",
@@ -88,7 +94,7 @@ const projectsData = [
   },
   {
     title: "API R&M",
-    description: "React.js | CSS",
+    tools: "React.js | CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/5.png",
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/Rick-Morty-API-in-ReactJS.git",
@@ -97,7 +103,7 @@ const projectsData = [
   },
   {
     title: "API Star Wars",
-    description: "Next.js | Tailwind CSS",
+    tools: "Next.js | Tailwind CSS",
     image: "https://zestebanz.github.io/my-gallery/public/img/projectos/15.png",
     tag: ["All", "Api"],
     gitUrl: "https://github.com/zEstebanz/star-wars-api.git",
@@ -146,7 +152,7 @@ const ProjectsSection = () => {
           name="Api"
           isSelected={tag === "Api"}
         />
-         <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="Unity"
           isSelected={tag === "Unity"}
@@ -165,6 +171,7 @@ const ProjectsSection = () => {
             <ProjectCard
               key={project.id}
               title={project.title}
+              tools={project.tools}
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}

@@ -111,12 +111,21 @@
 }
 .section-port .wrapper .grid {
   border-radius: 16px;
-  background-color: #222;
+  background-color: rgba(35, 35, 35, 0.9137254902);
+  box-shadow: 0 0 5px rgba(162, 162, 162, 0.5);
+}
+.section-port .wrapper .grid:hover {
+  transition: 0.2s;
+  box-shadow: 0 0 5px rgba(196, 196, 196, 0.5);
+}
+.section-port .wrapper .grid:not(:hover) {
+  transition: 0.5s;
 }
 .section-port .wrapper .grid1 {
   grid-column: 1/4;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  box-shadow: none;
   gap: 10px;
   justify-content: space-between;
   background-color: transparent;
@@ -144,6 +153,9 @@
   font-size: 2rem;
   margin: 0.3rem;
   color: #ffffff;
+}
+.section-port .wrapper .grid1:hover {
+  box-shadow: none;
 }
 .section-port .wrapper .grid2 {
   grid-column: 4/7;

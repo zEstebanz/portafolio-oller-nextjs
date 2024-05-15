@@ -78,8 +78,8 @@ const PortSection = () => {
                 </div>
                 {/* About me */}
                 <div className="grid grid2">
-                    <div className="header">
-                        <Image src={avatar} alt="Descripción de la imagen" width="100" height="100" />
+                    <div className="header rounded-2xl">
+                        <Image src={avatar} alt="Descripción de la imagen" width="100" height="100" className="rounded-2xl"/>
                         <div>
                             <h1>Esteban Oller</h1>
                             <h3>Técnico en <span>Software</span></h3>

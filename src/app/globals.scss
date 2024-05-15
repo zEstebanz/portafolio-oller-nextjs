@@ -6,6 +6,8 @@
 $blanco: #ffffff;
 $gris: #afb0be;
 $negro: #08090a;
+$dark: #232323e9;
+$bg-dark: #1c1c1c;
 $awita: #38b388;
 $awita2: #00bd95;
 $naranja: #ff4500;
@@ -132,13 +134,24 @@ $tr: #24022e1c;
 
     .grid {
       border-radius: 16px;
-      background-color: #222;
+      background-color: $dark;
+      box-shadow: 0 0 5px rgba(162, 162, 162, 0.5)
+    }
+
+    .grid:hover {
+      transition: 0.2s;
+      box-shadow: 0 0 5px rgba(196, 196, 196, 0.5);
+    }
+
+    .grid:not(:hover) {
+      transition: 0.5s;
     }
 
     .grid1 {
       grid-column: 1/4;
       display: grid;
       grid-template-columns: repeat(3, 1fr);
+      box-shadow: none;
       gap: 10px;
       justify-content: space-between;
       background-color: transparent;
@@ -171,6 +184,9 @@ $tr: #24022e1c;
           color: $blanco;
         }
       }
+    }
+    .grid1:hover{
+      box-shadow: none;
     }
 
     .grid2 {
