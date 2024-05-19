@@ -90,8 +90,7 @@ const PortSection = () => {
                         <div className="text-lg px-4 pt-6 sm:pt-2 ">
                             <ul className="list-disc ml-4">
                                 <li>Especialista en Desarrollo Web.</li>
-                                <li>Amplia experiencia en el stack <span className="text-[#47A248]">M</span>E<span className="text-[#61DAFB]">R</span><span className="text-[#339933]">N</span>.</li>
-                            
+                                <li>Experiencia en el stack <span className="text-[#47A248]">M</span>E<span className="text-[#61DAFB]">R</span><span className="text-[#339933]">N</span>.</li>
                                 <li>Gestión de sistemas Linux.</li>
                                 <li>Conocimientos sólidos en hardware y redes informáticas.</li>
                             </ul>
