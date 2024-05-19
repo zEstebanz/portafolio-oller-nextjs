@@ -61,7 +61,7 @@ const EmailSection = () => {
                         <Link href="https://www.linkedin.com/in/tu_usuario_de_LinkedIn" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="text-white icon" />
                         </Link>
-                        <Link href=" https://wa.me/2612528276" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://wa.me/2612528276" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp className="text-white icon" />
                         </Link>
                         <Link href="mailto:estebanoller83@gmail.com" target="_blank" rel="noopener noreferrer">

@@ -18,7 +18,7 @@ import { FaItchIo } from "react-icons/fa";
 
 import Image from "next/image";
 import BlogProject from '../../../public/img/projects/blog.png';
-import MendoPlegProject from '../../../public/img/projects/1.png';
+import MendoPlegProject from '../../../public/img/mendopleg.png';
 import UbuntuProject from '../../../public/img/projects/14.png';
 import PixelArcadeProject from '../../../public/img/projects/7.png';
 
@@ -79,7 +79,7 @@ const PortSection = () => {
                 {/* About me */}
                 <div className="grid grid2">
                     <div className="header rounded-2xl">
-                        <Image src={avatar} alt="Descripción de la imagen" width="100" height="100" className="rounded-2xl"/>
+                        <Image src={avatar} alt="Descripción de la imagen" width="100" height="100" className="rounded-2xl" />
                         <div>
                             <h1>Esteban Oller</h1>
                             <h3>Técnico en <span>Software</span></h3>
@@ -88,13 +88,20 @@ const PortSection = () => {
                     <hr className='mx-8 border-[#00bd95]' />
                     <div className='about-me'>
                         <div className="text-lg px-4 pt-6 sm:pt-2 ">
-                            <p className='mb-2 text-[16px]'>
+                            <ul className="list-disc ml-4">
+                                <li>Especialista en Desarrollo Web.</li>
+                                <li>Amplia experiencia en el stack <span className="text-[#47A248]">M</span>E<span className="text-[#61DAFB]">R</span><span className="text-[#339933]">N</span>.</li>
+                            
+                                <li>Gestión de sistemas Linux.</li>
+                                <li>Conocimientos sólidos en hardware y redes informáticas.</li>
+                            </ul>
+                            {/* <p className='mb-2 text-[16px]'>
                                 Soy Técnico en Software y me he especializado en desarrollo web. Además, tengo experiencia en áreas diversas, incluyendo bases de datos, desarrollo de juegos en Unity 2D, administración de sistemas Linux atraves de maquinas virtuales y uso de herramientas como Docker. También tengo conocimientos en hardware de computadoras, lo que me permite mantener infraestructuras de hardware de manera efectiva.
-                            </p>
-                            <p className="text-white mb-2">
+                            </p> */}
+                            {/* <p className="text-white mb-2">
                                 Me esfuerzo por mantenerme actualizado y aprender habilidades nuevas. En este momento, estoy interesado en aprender más sobre el mundo de la ciberseguridad.
-                            </p>
-                            <div className="text-white mb-2">
+                            </p> */}
+                            <div className="text-white mb-2 mt-8">
                                 <p>
                                     ¡No dudes en{''}
                                     <Link to="contact" smooth duration={3000} className="ml-2 text-[#38b388] cursor-pointer">
@@ -105,14 +112,11 @@ const PortSection = () => {
                             </div>
                         </div>
                     </div>
+
+                   
                 </div>
                 {/* My proyects */}
                 <div className="grid grid3 relative">
-                    <div className="py-4">
-                        <p className="text-center text-lg">
-                            Mis Proyectos
-                        </p>
-                    </div>
                     <Swiper
                         spaceBetween={0}
                         centeredSlides={true}
@@ -121,48 +125,48 @@ const PortSection = () => {
                         }}
                         modules={[Autoplay]}
                         loop={true}
-                        className="mySwiper absolute top-0 left-0 w-[90%] h-[90%] rounded-xl overflow-hidden"
+                        className="mySwiper w-full h-full rounded-[16px] overflow-hidden"
                     >
                         <SwiperSlide>
-                            <div className="relative">
-                                <div className="bg-black bg-opacity-50 absolute inset-0 rounded-xl"></div>
-                                <Image src={BlogProject} className="w-full h-full" />
+                            <div className="relative w-full h-full">
+                                <div className="bg-black bg-opacity-10 absolute inset-0 rounded-xl"></div>
+                                <Image src={BlogProject} className="w-full h-full object-cover" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="relative">
-                                <div className="bg-black bg-opacity-50 absolute inset-0 rounded-xl"></div>
-                                <Image src={MendoPlegProject} className="w-full h-full" />
+                            <div className="relative w-full h-full">
+                                <div className="bg-black bg-opacity-10 absolute inset-0 rounded-xl"></div>
+                                <Image src={MendoPlegProject} className="w-full h-full object-cover" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="relative">
-                                <div className="bg-black bg-opacity-50 absolute inset-0 rounded-xl"></div>
-                                <Image src={UbuntuProject} className="w-full h-full" />
+                            <div className="relative w-full h-full">
+                                <div className="bg-black bg-opacity-10 absolute inset-0 rounded-xl"></div>
+                                <Image src={UbuntuProject} className="w-full h-full object-cover" />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <div className="relative">
-                                <div className="bg-black bg-opacity-50 absolute inset-0 rounded-xl"></div>
-                                <Image src={PixelArcadeProject} className="w-full h-full" />
+                            <div className="relative w-full h-full">
+                                <div className="bg-black bg-opacity-10 absolute inset-0 rounded-xl"></div>
+                                <Image src={PixelArcadeProject} className="w-full h-full object-cover" />
                             </div>
                         </SwiperSlide>
                     </Swiper>
                     <div className="flex items-center justify-center absolute inset-0 z-10">
-                        <Link to="projects" smooth duration={1000} className="bg-[#00bd95] hover:bg-[#00bd94c1] border-solid border-4 border-[#222] rounded-lg px-4 py-2 text-white font-bold cursor-pointer">
+                        <Link to="projects" smooth duration={1000} className="bg-[#00bd95] hover:bg-[#3ba991] border-solid border-4 border-[#222] rounded-lg px-4 py-2 text-white font-bold cursor-pointer">
                             Mirar Proyectos
                         </Link>
                     </div>
                 </div>
                 {/* My GitHub */}
-                <div rel="noopener noreferrer" className="grid grid4 hover:scale-105">
+                <div rel="noopener noreferrer" className="grid grid4">
                     <div className="flex justify-between items-center mb-8">
-                        <Link href="https://github.com/zEstebanz">
+                        <a href="https://github.com/zEstebanz" target="_blank">
                             <FaGithub className="text-4xl m-4 transition-transform transform hover:scale-110" />
-                        </Link>
-                        <Link href="https://github.com/zEstebanz">
+                        </a>
+                        <a href="https://github.com/zEstebanz" target="_blank">
                             <FaExternalLinkAlt className="text-2xl m-4 transition-transform transform hover:scale-110" />
-                        </Link>
+                        </a>
                     </div>
                     <div className="m-2 pb-5 bg-black bg-opacity-50 rounded-xl">
                         <h1 className="text-white text-2xl font-bold ml-2">GitHub</h1>
