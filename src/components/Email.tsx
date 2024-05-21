@@ -82,7 +82,7 @@ const EmailSection = () => {
                                     htmlFor="email"
                                     className="text-white text-center block mb-2 text-sm font-medium"
                                 >
-                                    Por el momento este formulario esta esta en Desarrollo
+                                    Por el momento este formulario esta en Desarrollo...
                                 </label>
                                 <label
                                     htmlFor="email"
