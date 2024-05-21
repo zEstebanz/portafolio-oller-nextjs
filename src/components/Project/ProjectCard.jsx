@@ -28,14 +28,8 @@ const ProjectCard = ({ imgUrl, title, tools, description, gitUrl, previewUrl, do
           <h5 className="text-xl font-semibold mb-2">{title}</h5>
         </div>
 
-        <div
-          className="h-52 md:h-52 relative group shadow-md overflow-hidden flex justify-center items-center"
-          style={{
-            background: `url(${imgUrl}) center center / cover no-repeat`,
-          }}
-          onClick={openModal}
-        >
-
+        <div className="h-52 md:h-52 relative group shadow-md overflow-hidden flex justify-center items-center" style={{ background: `url(${imgUrl}) center center / cover no-repeat` }} onClick={openModal}>
+          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300 cursor-pointer"></div>
         </div>
         <div className="bg-[#181818] rounded-b-xl px-4" onClick={openModal}>
           <div className="flex justify-center mt-4 py-2">

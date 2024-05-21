@@ -56,7 +56,8 @@ const EmailSection = () => {
                     </h5>
                     <p className="text-[#ADB7BE] mb-4 max-w-md">
                         {" "}
-                        Si quieres ponerte en contacto conmigo, puedes hacerlo a través de las redes sociales o rellenando el formulario de contacto. Te responderé cuanto antes. ¡De verdad que sí! </p>
+                        Si quieres ponerte en contacto conmigo, puedes hacerlo a través de mi Email, LinkedIn o Whatsapp. Te responderé cuanto antes. ¡De verdad que sí! </p>
+                        {/* <p>o rellenando el formulario de contacto.</p> */}
                     <div className="socials flex flex-row gap-2">
                         <Link href="https://www.linkedin.com/in/tu_usuario_de_LinkedIn" target="_blank" rel="noopener noreferrer">
                             <FaLinkedin className="text-white icon" />
@@ -79,11 +80,18 @@ const EmailSection = () => {
                             <div className="mb-6">
                                 <label
                                     htmlFor="email"
+                                    className="text-white text-center block mb-2 text-sm font-medium"
+                                >
+                                    Por el momento este formulario esta esta en Desarrollo
+                                </label>
+                                <label
+                                    htmlFor="email"
                                     className="text-white block mb-2 text-sm font-medium"
                                 >
                                     Tu Email
                                 </label>
                                 <input
+                                    disabled
                                     name="email"
                                     type="email"
                                     id="email"
@@ -100,6 +108,7 @@ const EmailSection = () => {
                                     Mensaje
                                 </label>
                                 <textarea
+                                    disabled
                                     name="message"
                                     id="message"
                                     className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
@@ -107,6 +116,7 @@ const EmailSection = () => {
                                 />
                             </div>
                             <button
+                                disabled
                                 type="submit"
                                 className="bg-button text-white font-medium py-2.5 px-5 rounded-lg w-full"
                             >

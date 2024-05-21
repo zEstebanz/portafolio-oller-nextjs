@@ -29,7 +29,7 @@ const Footer = () => {
           </ul>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span className="block text-lg text-gray-500 sm:text-center dark:text-white textFooter">2024, <Link href="/" className="hover:underline textFooter">Esteban <span className='span'>Oller</span></Link>.</span>
+        <span className="block text-lg text-gray-500 sm:text-center dark:text-white textFooter"><Link href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" className=" textFooter" target='_blank'>Esteban <span className='span'>Oller</span></Link>.</span>
       </div>
     </footer>
   );

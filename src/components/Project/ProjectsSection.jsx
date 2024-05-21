@@ -92,24 +92,24 @@ const projectsData = [
     previewUrl: "https://frontend-store-70f6cc.netlify.app/",
     docUrl: "",
   },
-  {
-    title: "API R&M",
-    tools: "React.js | CSS",
-    image: "https://zestebanz.github.io/my-gallery/public/img/projectos/5.png",
-    tag: ["All", "Api"],
-    gitUrl: "https://github.com/zEstebanz/Rick-Morty-API-in-ReactJS.git",
-    previewUrl: "https://marvelous-lebkuchen-8fe5f7.netlify.app/",
-    docUrl: "",
-  },
-  {
-    title: "API Star Wars",
-    tools: "Next.js | Tailwind CSS",
-    image: "https://zestebanz.github.io/my-gallery/public/img/projectos/15.png",
-    tag: ["All", "Api"],
-    gitUrl: "https://github.com/zEstebanz/star-wars-api.git",
-    previewUrl: "https://star-wars-api-omega.vercel.app/",
-    docUrl: "",
-  },
+  // {
+  //   title: "API R&M",
+  //   tools: "React.js | CSS",
+  //   image: "https://zestebanz.github.io/my-gallery/public/img/projectos/5.png",
+  //   tag: ["All", "Api"],
+  //   gitUrl: "https://github.com/zEstebanz/Rick-Morty-API-in-ReactJS.git",
+  //   previewUrl: "https://marvelous-lebkuchen-8fe5f7.netlify.app/",
+  //   docUrl: "",
+  // },
+  // {
+  //   title: "API Star Wars",
+  //   tools: "Next.js | Tailwind CSS",
+  //   image: "https://zestebanz.github.io/my-gallery/public/img/projectos/15.png",
+  //   tag: ["All", "Api"],
+  //   gitUrl: "https://github.com/zEstebanz/star-wars-api.git",
+  //   previewUrl: "https://star-wars-api-omega.vercel.app/",
+  //   docUrl: "",
+  // },
 ];
 
 const ProjectsSection = () => {

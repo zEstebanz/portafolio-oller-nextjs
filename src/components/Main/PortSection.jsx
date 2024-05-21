@@ -15,6 +15,7 @@ import { FcBriefcase } from "react-icons/fc";
 import { TfiLayoutMediaOverlay } from "react-icons/tfi";
 import { IoLogoVercel } from "react-icons/io5";
 import { FaItchIo } from "react-icons/fa";
+import { GoProjectSymlink } from "react-icons/go";
 
 import Image from "next/image";
 import BlogProject from '../../../public/img/projects/blog.png';
@@ -87,32 +88,39 @@ const PortSection = () => {
                     </div>
                     <hr className='mx-8 border-[#00bd95]' />
                     <div className='about-me'>
-                        <div className="text-lg px-4 pt-6 sm:pt-2 ">
-                            <ul className="list-disc ml-4">
-                                <li>Especialista en Desarrollo Web.</li>
+                        <div className="pl-4 pt-6 sm:pt-2 ">
+                            <h3 className="text-lg mt-2 font-semibold">Sobre Mí</h3>
+                            <ul className="list-disc ml-8 text-base text-gray-300">
+                                <li>Me Especializo en Desarrollo Web.</li>
                                 <li>Experiencia en el stack <span className="text-[#47A248]">M</span>E<span className="text-[#61DAFB]">R</span><span className="text-[#339933]">N</span>.</li>
                                 <li>Gestión de sistemas Linux.</li>
-                                <li>Conocimientos sólidos en hardware y redes informáticas.</li>
+                                <li>Conocimientos sólidos en hardware informático.</li>
+                                <li>Conocimientos en bases de datos.</li>
                             </ul>
-                            {/* <p className='mb-2 text-[16px]'>
-                                Soy Técnico en Software y me he especializado en desarrollo web. Además, tengo experiencia en áreas diversas, incluyendo bases de datos, desarrollo de juegos en Unity 2D, administración de sistemas Linux atraves de maquinas virtuales y uso de herramientas como Docker. También tengo conocimientos en hardware de computadoras, lo que me permite mantener infraestructuras de hardware de manera efectiva.
-                            </p> */}
-                            {/* <p className="text-white mb-2">
-                                Me esfuerzo por mantenerme actualizado y aprender habilidades nuevas. En este momento, estoy interesado en aprender más sobre el mundo de la ciberseguridad.
-                            </p> */}
-                            <div className="text-white mb-2 mt-8">
-                                <p>
-                                    ¡No dudes en{''}
-                                    <Link to="contact" smooth duration={3000} className="ml-2 text-[#38b388] cursor-pointer">
-                                        contactarme!
-                                        <GiClick className="inline-block ml-1" />
-                                    </Link>
-                                </p>
-                            </div>
+                        </div>
+                        <div className="px-4 pt-4 sm:pt-2 md:pb-0 pb-4">
+                            <h3 className="mt-2 text-lg font-semibold">Experiencia en Desarrollo de Software</h3>
+                            <ul className="ml-4">
+                                <li className="mt-2">
+                                    <span className="font-semibold text-base text-gray-300">Semillero de Quinto Impacto - Pasantías</span>
+                                    <ul className="ml-4 text-gray-400">
+                                        <li>Febrero - Mayo del 2024</li>
+                                        <li>Miembro del equipo de <span className="text-[#61DBFB]">Frontend</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-
-                   
+                    <hr className='mx-8 border-[#00bd95]' />
+                    <div className="text-white text-center mb-2 py-4">
+                        <p>
+                            ¡No dudes en{''}
+                            <Link to="contact" smooth duration={3000} className="ml-2 text-[#38b388] hover:text-[#4da385] cursor-pointer">
+                                contactarme!
+                                <GiClick className="inline-block ml-1" />
+                            </Link>
+                        </p>
+                    </div>
                 </div>
                 {/* My proyects */}
                 <div className="grid grid3 relative">
@@ -124,7 +132,7 @@ const PortSection = () => {
                         }}
                         modules={[Autoplay]}
                         loop={true}
-                        className="mySwiper w-full h-full rounded-[16px] overflow-hidden"
+                        className="mySwiper w-full h-full rounded-tl-[16px] rounded-tr-[16px] overflow-hidden"
                     >
                         <SwiperSlide>
                             <div className="relative w-full h-full">
@@ -151,9 +159,10 @@ const PortSection = () => {
                             </div>
                         </SwiperSlide>
                     </Swiper>
-                    <div className="flex items-center justify-center absolute inset-0 z-10">
-                        <Link to="projects" smooth duration={1000} className="bg-[#00bd95] hover:bg-[#3ba991] border-solid border-4 border-[#222] rounded-lg px-4 py-2 text-white font-bold cursor-pointer">
-                            Mirar Proyectos
+                    <div className="flex items-center justify-center">
+                        <Link to="projects" smooth duration={1000} className="text-center px-4 py-2 text-white hover:text-teal-600 transition-transform font-bold cursor-pointer flex items-center">
+                            <span>Mirar Proyectos</span>
+                            <GoProjectSymlink className="text-2xl ml-2 transition-transform transform hover:scale-110" />
                         </Link>
                     </div>
                 </div>
