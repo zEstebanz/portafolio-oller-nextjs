@@ -1,6 +1,6 @@
 "use client"
 import { Link } from "react-scroll";
-import { FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload, FaGithub, FaDocker, FaDiscord, FaUnity, FaExternalLinkAlt, FaCss3 } from 'react-icons/fa';
+import { FaReact, FaBackward, FaDatabase, FaRegFileCode, FaDownload, FaGithub, FaDocker, FaDiscord, FaUnity, FaExternalLinkAlt, FaCss3, FaLaravel } from 'react-icons/fa';
 import { IoLogoJavascript, IoMdMail } from "react-icons/io";
 import { BiLogoSpringBoot } from "react-icons/bi";
 import { FaWindows, FaAngular, FaChevronDown } from "react-icons/fa";
