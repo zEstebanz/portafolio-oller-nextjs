@@ -111,33 +111,11 @@
 }
 .section-port .wrapper .grid {
   position: relative;
-  /* Necesario para posicionar correctamente el pseudo-elemento */
   border-radius: 16px;
   background-color: rgba(35, 35, 35, 0.9137254902);
-  /* Suponiendo que $dark está definido en tu preprocesador CSS (como SASS) */
-  transition: box-shadow 0.3s ease-in-out;
-  /* Agregamos una transición para suavizar el efecto */
-}
-.section-port .wrapper .grid::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 16px;
-  /* Asegúrate de que coincida con el borde del contenedor */
-  pointer-events: none;
-  /* Asegura que el pseudo-elemento no interfiera con los eventos del ratón */
-  border-top: 1px solid transparent;
-  border-right: 1px solid transparent;
-  background: linear-gradient(to left, rgba(207, 207, 207, 0.1882352941), transparent) top, linear-gradient(to bottom, rgba(207, 207, 207, 0.1882352941), transparent) right;
-  background-size: 100% 1px, 1px 100%;
-  background-repeat: no-repeat;
 }
 .section-port .wrapper .grid:hover {
   box-shadow: inset 0 0 10px rgba(78, 78, 78, 0.5);
-  /* Sombra hacia adentro */
 }
 .section-port .wrapper .grid1 {
   grid-column: 1/4;

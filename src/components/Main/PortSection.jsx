@@ -201,7 +201,7 @@ const PortSection = () => {
                                     <LuMonitorSmartphone className="mr-2" /> MaterialUI | Swipper | ShadcnUI.
                                 </p>
                                 <p className="flex items-center">
-                                    <FaBackward className="mr-2" /> Node.js | Express.js | Java.
+                                    <FaBackward className="mr-2" /> Node.js | Express.js | JAVA | PHP.
                                 </p>
                                 <p className="flex items-center">
                                     <FaDatabase className="mr-2" /> Mongo DB | MySQL.
@@ -229,7 +229,7 @@ const PortSection = () => {
                                     <RiTestTubeFill className="mr-2" /> Jest | React Testing Library.
                                 </p>
                                 <p className="flex items-center">
-                                    <SiAstro className="mr-2" /> Astro | <SiNestjs className="mr-2 ml-2" /> Nest.
+                                    <SiAstro className="mr-2" /> Astro | <SiNestjs className="mr-2 ml-2" /> Nest | <FaLaravel className="mr-2 ml-2" /> Laravel
                                 </p>
                                 <p className="flex items-center">
                                     <BiLogoSpringBoot className="mr-2" /> SpringBoot | <FaAngular className="mr-2 ml-2" /> Angular.

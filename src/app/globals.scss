@@ -134,36 +134,12 @@ $tr: #24022e1c;
 
     .grid {
       position: relative;
-      /* Necesario para posicionar correctamente el pseudo-elemento */
       border-radius: 16px;
       background-color: $dark;
-      /* Suponiendo que $dark está definido en tu preprocesador CSS (como SASS) */
-      transition: box-shadow 0.3s ease-in-out;
-      /* Agregamos una transición para suavizar el efecto */
-    }
-
-    .grid::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      border-radius: 16px;
-      /* Asegúrate de que coincida con el borde del contenedor */
-      pointer-events: none;
-      /* Asegura que el pseudo-elemento no interfiera con los eventos del ratón */
-      border-top: 1px solid transparent;
-      border-right: 1px solid transparent;
-      background: linear-gradient(to left, #cfcfcf30, transparent) top,
-        linear-gradient(to bottom, #cfcfcf30, transparent) right;
-      background-size: 100% 1px, 1px 100%;
-      background-repeat: no-repeat;
     }
 
     .grid:hover {
       box-shadow: inset 0 0 10px rgba(78, 78, 78, 0.5);
-      /* Sombra hacia adentro */
     }
 
     .grid1 {
