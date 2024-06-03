@@ -16,6 +16,7 @@ import { TfiLayoutMediaOverlay } from "react-icons/tfi";
 import { IoLogoVercel } from "react-icons/io5";
 import { FaItchIo } from "react-icons/fa";
 import { GoProjectSymlink } from "react-icons/go";
+import { PiCertificateBold } from "react-icons/pi";
 
 import Image from "next/image";
 import BlogProject from '../../../public/img/projects/blog.png';
@@ -53,9 +54,9 @@ const PortSection = () => {
     return (
         <section className="section-port py-20 px-4 md:px-8 md:py-[110px]">
             <div className="wrapper">
-                {/* My Contacts */}
+                {/* My Contacts
                 <div className="grid grid1">
-                    <div className="header flex justify-center items-center">
+                     <div className="header flex justify-center items-center">
                         <div className="flex items-center">
                             <a href="https://www.linkedin.com/in/esteban-oller-2b7a5a153/" target="_blank">
                                 <FaLinkedin className="ml-4 md:ml-2 text-2xl md:text-6xl transition-transform transform hover:scale-110" />
@@ -76,7 +77,8 @@ const PortSection = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
+
                 {/* About me */}
                 <div className="grid grid2">
                     <div className="header rounded-2xl">
@@ -132,7 +134,7 @@ const PortSection = () => {
                         }}
                         modules={[Autoplay]}
                         loop={true}
-                        className="mySwiper w-full h-full rounded-tl-[16px] rounded-tr-[16px] overflow-hidden"
+                        className="mySwiper w-full h-[150px] rounded-tl-[16px] rounded-tr-[16px] overflow-hidden"
                     >
                         <SwiperSlide>
                             <div className="relative w-full h-full">
@@ -160,15 +162,26 @@ const PortSection = () => {
                         </SwiperSlide>
                     </Swiper>
                     <div className="flex items-center justify-center">
-                        <Link to="projects" smooth duration={1000} className="text-center px-4 py-2 text-white hover:text-teal-600 transition-transform font-bold cursor-pointer flex items-center">
+                        <Link to="projects" smooth duration={1000} className="text-center px-4 py-2 text-white hover:text-teal-600 transition-transform font-bold cursor-pointer flex items-center my-2">
                             <span>Mirar Proyectos</span>
                             <GoProjectSymlink className="text-2xl ml-2 transition-transform transform hover:scale-110" />
                         </Link>
                     </div>
                 </div>
+
+                {/* My Certifications */}
+                <div className="grid grid3-5">
+                    <div className="flex items-center justify-center">
+                        <a href="/certificaciones" smooth duration={1000} className="text-center px-4 py-2 text-white hover:text-teal-600 transition-transform font-bold cursor-pointer flex items-center my-2">
+                            <span>Mirar Certificaciones</span>
+                            <PiCertificateBold className="text-2xl ml-2 transition-transform transform hover:scale-110" />
+                        </a>
+                    </div>
+                </div>
+
                 {/* My GitHub */}
                 <div rel="noopener noreferrer" className="grid grid4">
-                    <div className="flex justify-between items-center mb-8">
+                    <div className="flex justify-between items-center mb-8 w-full h-[100px]">
                         <a href="https://github.com/zEstebanz" target="_blank">
                             <FaGithub className="text-4xl m-4 transition-transform transform hover:scale-110" />
                         </a>
@@ -181,6 +194,7 @@ const PortSection = () => {
                         <p className="text-white text-base ml-2">Mi repositorio de proyectos, pruebas y experimentos</p>
                     </div>
                 </div>
+
                 {/* My Skills */}
                 <div className="grid grid5">
                     <p className="text-center pt-4 text-lg">Mis habilidades</p>
