@@ -173,7 +173,7 @@
 .section-port .wrapper .grid3-5 {
   grid-column: 7/10;
   grid-row: 3/6;
-  background-image: linear-gradient(to right, #17635c, #124957, #242e3f, #1e1920, #000000);
+  background-image: linear-gradient(to right, #12d0bd, #0c8eae, #242e3f, #1e1920, #000000);
 }
 .section-port .wrapper .grid4 {
   grid-column: 7/10;
@@ -212,7 +212,7 @@
 }
 
 .bg-gradient {
-  background-image: linear-gradient(155deg, hsl(174, 62%, 24%) 0%, hsl(173, 29%, 20%) 23%, hsl(0, 0%, 13%) 100%);
+  background-color: #333;
 }
 
 /* End Section Port */

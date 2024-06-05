@@ -104,12 +104,12 @@ function Page() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {projectsData.map((project, index) => (
                     <div key={index}>
-                        <div className="text-white rounded-t-xl mt-3 bg-[#181818] px-4 cursor-pointer" onClick={() => openModal(project)}>
+                        <div className="text-white rounded-t-xl mt-3 bg-[#222] px-4 cursor-pointer" onClick={() => openModal(project)}>
                             <h5 className="text-xl font-semibold mb-2">{project.title}</h5>
                         </div>
                         <div className="h-52 md:h-52 relative group shadow-md overflow-hidden flex justify-center items-center" onClick={() => openModal(project)}>
                             <Image src={project.image} layout="fill" objectFit="cover" />
-                            <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300 cursor-pointer"></div>
+                            <div className="absolute inset-0 bg-black opacity-50 group-hover:opacity-10 transition-opacity duration-300 cursor-pointer"></div>
                         </div>
 
                         <div className="bg-[#181818] rounded-b-xl px-4" onClick={() => openModal(project)}>
