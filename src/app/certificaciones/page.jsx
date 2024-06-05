@@ -9,7 +9,6 @@ import cer4 from '../../../public/cert/git-oller.jpg';
 import cer5 from '../../../public/cert/Curso básico de sql server.jpg';
 import cer6 from '../../../public/cert/JavaFesat.png';
 
-
 import { MdVerified } from "react-icons/md";
 
 const projectsData = [
@@ -96,6 +95,7 @@ function Page() {
         const zoomDelta = e.deltaY > 0 ? 0.1 : -0.1; // Adjust the zoom speed as needed
         setZoomLevel((prevZoom) => Math.max(0.1, Math.min(prevZoom + zoomDelta, 3))); // Restrict zoom level between 0.1 and 3
     };
+
     return (
         <section className="min-h-[100vh] h-auto bg-gradient py-[100px] px-10">
             <h2 className="text-center text-4xl font-bold text-white my-4">
@@ -141,7 +141,10 @@ function Page() {
                                 </svg>
                             </button>
                             <div className="flex flex-col md:flex-row items-center">
-                                <div
+                                <a
+                                    href={selectedProject.image.src}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
                                     className="w-full md:w-1/2 mb-4 md:mb-0 md:mr-4"
                                     style={{
                                         width: '100%',
@@ -162,7 +165,7 @@ function Page() {
                                         alt={selectedProject.title}
                                         style={{ maxWidth: '100%', maxHeight: '100%' }}
                                     />
-                                </div>
+                                </a>
                                 <div className="w-full md:w-1/2">
                                     <h2 className="text-xl font-semibold text-white">{selectedProject.title}</h2>
                                     <p className="text-[#00bd95] mt-2">{selectedProject.tools}</p>
