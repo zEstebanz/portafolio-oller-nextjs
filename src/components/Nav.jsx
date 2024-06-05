@@ -9,7 +9,7 @@ import Image from "next/image"; // Importar Image de Next.js
 const navLinks = [
     {
         title: "Home",
-        path: "#home",
+        path: "/",
     },
     {
         title: "Projects",
