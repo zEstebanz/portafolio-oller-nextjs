@@ -8,6 +8,8 @@ import cer3 from '../../../public/cert/Semillero.jpeg';
 import cer4 from '../../../public/cert/git-oller.jpg';
 import cer5 from '../../../public/cert/Curso básico de sql server.jpg';
 import cer6 from '../../../public/cert/JavaFesat.png';
+import cer7 from '../../../public/cert/PHP & SQL.jpg';
+import cer8 from '../../../public/cert/maquinas-virtuales.png';
 
 import { MdVerified } from "react-icons/md";
 
@@ -15,7 +17,7 @@ const projectsData = [
     {
         title: 'Back End Development and APIs',
         tools: 'Node.js | Express.js',
-        description: 'Certificado de FreeCodeCamp',
+        description: 'Certificado de FreeCodeCamp, me interesa aprender sobre back-end con node y el manejo de un servidor a una base de datos.',
         image: cer1,
         gitUrl: "",
         previewUrl: "https://www.freecodecamp.org/certification/EstebanOller/back-end-development-and-apis",
@@ -33,7 +35,7 @@ const projectsData = [
     {
         title: 'Semillero Quinto Impacto',
         tools: 'React.js | Axios | MaterialUI | Git | Trello & Jira',
-        description: '',
+        description: 'Proyecto de 11 semanas. Miembro del equipo de front-end trabajamos para alcanzar nuestro objetivo de crear un MVP (Producto Mínimo Viable).',
         image: cer3,
         gitUrl: "",
         previewUrl: "",
@@ -49,10 +51,28 @@ const projectsData = [
         docUrl: "",
     },
     {
+        title: 'Maquinas Virtuales & VirtualBox ',
+        tools: 'VirtualBox | Linux | kali | Ubuntu ',
+        description: 'Me interesaba máquinas virtuales para utilizarlas en mi computadora y hacer entornos de desarrollos controlados.',
+        image: cer8,
+        gitUrl: "",
+        previewUrl: "",
+        docUrl: "",
+    },
+    {
         title: 'SQL',
         tools: 'SQL',
         description: '',
         image: cer5,
+        gitUrl: "",
+        previewUrl: "",
+        docUrl: "",
+    },
+    {
+        title: 'PHP & MySQL',
+        tools: 'PHP | MySQL ',
+        description: '',
+        image: cer7,
         gitUrl: "",
         previewUrl: "",
         docUrl: "",
