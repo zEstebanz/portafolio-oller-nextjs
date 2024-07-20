@@ -85,7 +85,7 @@ const PortSection = () => {
                         <Image src={avatar} alt="Descripción de la imagen" width="100" height="100" className="rounded-2xl" />
                         <div>
                             <h1>Esteban Oller</h1>
-                            <h3>Técnico en <span>Software</span></h3>
+                            <h3>Técnico Superior en Desarrollo de <span>Software</span></h3>
                         </div>
                     </div>
                     <hr className='mx-8 border-[#00bd95]' />
@@ -108,6 +108,16 @@ const PortSection = () => {
                                     <ul className="ml-4 text-gray-400">
                                         <li>Febrero - Mayo del 2024</li>
                                         <li>Miembro del equipo de <span className="text-[#61DBFB]">Frontend</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul className="ml-4">
+                                <li className="mt-2">
+                                    <span className="font-semibold text-base text-gray-300">Tecnologia Activa</span>
+                                    <ul className="ml-4 text-gray-400">
+                                        <li>Junio - Actualmente</li>
+                                        <li>Full <span className="text-[#37f567]">Stack</span> en Node-React-SQL</li>
+                                        <li>Migración Sistema ERP en PHP a Node.js/React.js</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -206,19 +216,19 @@ const PortSection = () => {
                                     <RiJavascriptLine className="mr-2" /> JavaScript | TypeScript.
                                 </p>
                                 <p className="flex items-center">
-                                    <FaReact className="mr-2" />React.js | Next.js | Vite.js
+                                    <FaBackward className="mr-2" /> Node.js | Express.js | PHP.
+                                </p>
+                                <p className="flex items-center">
+                                    <FaReact className="mr-2" />React.js | Next.js.
                                 </p>
                                 <p className="flex items-center">
                                     <FaCss3 className="mr-2" />HTML & CSS | Tailwind CSS | SASS.
                                 </p>
                                 <p className="flex items-center">
-                                    <LuMonitorSmartphone className="mr-2" /> MaterialUI | Swipper | ShadcnUI.
+                                    <LuMonitorSmartphone className="mr-2" /> MaterialUI | ShadcnUI.
                                 </p>
                                 <p className="flex items-center">
-                                    <FaBackward className="mr-2" /> Node.js | Express.js | JAVA | PHP.
-                                </p>
-                                <p className="flex items-center">
-                                    <FaDatabase className="mr-2" /> Mongo DB | MySQL.
+                                    <FaDatabase className="mr-2" /> MongoDB | MySQL.
                                 </p>
                                 <p className="flex items-center">
                                     <FaGithub className="mr-2" /> GitHub | <FaDocker className="mr-2 ml-2" /> Docker.
@@ -244,9 +254,6 @@ const PortSection = () => {
                                 </p>
                                 <p className="flex items-center">
                                     <SiAstro className="mr-2" /> Astro | <SiNestjs className="mr-2 ml-2" /> Nest | <FaLaravel className="mr-2 ml-2" /> Laravel
-                                </p>
-                                <p className="flex items-center">
-                                    <BiLogoSpringBoot className="mr-2" /> SpringBoot | <FaAngular className="mr-2 ml-2" /> Angular.
                                 </p>
                                 <p className="flex items-center">
                                     <MdOutlineSecurity className="mr-2" /> Ciberseguridad
