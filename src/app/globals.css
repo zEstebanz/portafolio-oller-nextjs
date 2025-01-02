@@ -114,12 +114,14 @@
     margin-top: 50px;
   }
 }
-@media (min-width: 1080px) and (-webkit-min-device-pixel-ratio: 1.25) and (-webkit-max-device-pixel-ratio: 1.5), (min-width: 1080px) and (min-resolution: 120dpi) and (max-resolution: 144dpi) {
+@media (min-width: 1080px) and (-webkit-min-device-pixel-ratio: 1.25) and (-webkit-max-device-pixel-ratio: 1.5),
+  (min-width: 1080px) and (min-resolution: 120dpi) and (max-resolution: 144dpi) {
   .section-port .wrapper {
     margin-top: 0px;
   }
 }
-@media (min-width: 1080px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2), (min-width: 1080px) and (min-resolution: 144dpi) and (max-resolution: 192dpi) {
+@media (min-width: 1080px) and (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-max-device-pixel-ratio: 2),
+  (min-width: 1080px) and (min-resolution: 144dpi) and (max-resolution: 192dpi) {
   .section-port .wrapper {
     margin-top: 0;
   }
@@ -135,7 +137,14 @@
 .section-port .wrapper .grid2 {
   grid-column: 4/7;
   grid-row: 1/6;
-  background-image: linear-gradient(to right top, #222222, #1d1d1d, #181818, #131313, #0d0d0d);
+  background-image: linear-gradient(
+    to right top,
+    #222222,
+    #1d1d1d,
+    #181818,
+    #131313,
+    #0d0d0d
+  );
 }
 .section-port .wrapper .grid2 .header {
   display: flex;
@@ -168,20 +177,36 @@
   grid-column: 7/10;
   grid-row: 1/2;
   border: none;
-  background-image: linear-gradient(to right, #222222, #1b1b1b, #151515, #0c0c0c, #000000);
+  background-image: linear-gradient(
+    to right,
+    #222222,
+    #1b1b1b,
+    #151515,
+    #0c0c0c,
+    #000000
+  );
 }
 .section-port .wrapper .grid3-5 {
   grid-column: 7/10;
   grid-row: 3/6;
-  background-image: linear-gradient(to right, #12d0bd, #0c8eae, #242e3f, #1e1920, #000000);
+  background-image: linear-gradient(
+    to right,
+    #12d0bd,
+    #0c8eae,
+    #242e3f,
+    #1e1920,
+    #000000
+  );
 }
 .section-port .wrapper .grid4 {
   grid-column: 7/10;
-  background-image: url(../../public/background/3otv.gif);
+  background-image: url(../../public/background/test2.jpg);
   background-size: cover;
+  background-position: center 60%; /* Ajusta el porcentaje según lo que necesites */
   grid-row: 2/3;
   border: none;
 }
+
 @media (min-width: 765px) {
   .section-port .wrapper .grid4 {
     background-position: center calc(50% - 25px);
@@ -191,7 +216,14 @@
   grid-column: 1/4;
   grid-row: 1/6;
   border: none;
-  background-image: linear-gradient(to right top, #000000, #0c0c0c, #151515, #1b1b1b, #222222);
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #0c0c0c,
+    #151515,
+    #1b1b1b,
+    #222222
+  );
 }
 @media only screen and (max-width: 768px) {
   .section-port .wrapper {
@@ -332,4 +364,4 @@
 
 .bgFooter {
   background-color: #222222;
-}/*# sourceMappingURL=globals.css.map */
+} /*# sourceMappingURL=globals.css.map */
